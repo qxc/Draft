@@ -1,0 +1,500 @@
+\documentclass{article}
+
+%   Pakete dazuladen
+\input{libs.tex}
+%   Farbdefinitionen laden
+\input{colors.tex}
+%   \card-Commands laden
+\input{tikzcardsBare.tex}
+
+\newcommand{\push}{\includegraphics[height = .6cm]{Push} }
+\newcommand{\roam}{\includegraphics[height = .6cm]{Roam} }
+\newcommand{\glob}{\includegraphics[height = .6cm]{GlobalPresence} }
+\newcommand{\vision}{\includegraphics[height = .6cm]{Vision} }
+\newcommand{\melee}{\includegraphics[height = .6cm]{Melee} }
+\newcommand{\ranged}{\includegraphics[height = .6cm]{Ranged} }
+\newcommand{\specialist}{\includegraphics[height = .6cm]{Specialist} }
+\newcommand{\support}{\includegraphics[height = .6cm]{Support} }
+\newcommand{\assassin}{\includegraphics[height = .6cm]{Assassin} }
+\newcommand{\tank}{\includegraphics[height = .6cm]{Warrior} }
+\newcommand{\vp}{\includegraphics[height = .6cm]{vp} }
+
+\begin{document}
+\begin{center}
+\begin{tikzpicture} 
+\cardbackground{assassin} 
+\cardtitle{Zeratul} 
+\cardborder{} 
+\cardcontent{4 \vp if opponent has 3 or less \melee} 
+\cardimage{melee} 
+\cardprice{5\vp} 
+\stance{melee} 
+\attributes{Vision}{Push}{notRoam} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{assassin} 
+\cardtitle{Valla} 
+\cardborder{} 
+\cardcontent{} 
+\cardimage{ranged} 
+\cardprice{5\vp} 
+\stance{ranged} 
+\attributes{Vision}{Push}{Roam} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{assassin} 
+\cardtitle{Nova} 
+\cardborder{} 
+\cardcontent{6 \vp if 3 or more \melee} 
+\cardimage{ranged} 
+\cardprice{6\vp} 
+\stance{ranged} 
+\attributes{Vision}{notPush}{notRoam} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{assassin} 
+\cardtitle{KT} 
+\cardborder{} 
+\cardcontent{5 \vp if exactly 2 \push} 
+\cardimage{ranged} 
+\cardprice{4\vp} 
+\stance{ranged} 
+\attributes{notVision}{Push}{notRoam} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{assassin} 
+\cardtitle{Jaina} 
+\cardborder{} 
+\cardcontent{} 
+\cardimage{ranged} 
+\cardprice{8\vp} 
+\stance{ranged} 
+\attributes{notVision}{notPush}{notRoam} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{specialist} 
+\cardtitle{Murky} 
+\cardborder{} 
+\cardcontent{11 \vp if 3 or more \roam} 
+\cardimage{melee} 
+\cardprice{2\vp} 
+\stance{melee} 
+\attributes{notVision}{notPush}{notRoam} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{specialist} 
+\cardtitle{TLV} 
+\cardborder{} 
+\cardcontent{1 \vp for each \vision} 
+\cardimage{melee} 
+\cardprice{3\vp} 
+\stance{melee} 
+\attributes{notVision}{Push}{Roam} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{specialist} 
+\cardtitle{Sylvanas} 
+\cardborder{} 
+\cardcontent{7 \vp if more \vision than opponent} 
+\cardimage{ranged} 
+\cardprice{4\vp} 
+\stance{ranged} 
+\attributes{Vision}{Push}{notRoam} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{specialist} 
+\cardtitle{Zagara} 
+\cardborder{} 
+\cardcontent{Counts as 2 \vision.} 
+\cardimage{ranged} 
+\cardprice{3\vp} 
+\stance{ranged} 
+\attributes{Vision}{notPush}{notRoam} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{specialist} 
+\cardtitle{Hammer} 
+\cardborder{} 
+\cardcontent{3 \vp if KT} 
+\cardimage{ranged} 
+\cardprice{4\vp} 
+\stance{ranged} 
+\attributes{notVision}{notPush}{Roam} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Obj 1} 
+\cardborder{} 
+\cardcontent{If no \vision} 
+\cardimage{objective} 
+\cardprice{10} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Obj 10} 
+\cardborder{} 
+\cardcontent{If more \roam than your opponent} 
+\cardimage{objective} 
+\cardprice{10} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Obj 11} 
+\cardborder{} 
+\cardcontent{Your \push squared} 
+\cardimage{objective} 
+\cardprice{*} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Obj 12} 
+\cardborder{} 
+\cardcontent{If 3 or more \ranged} 
+\cardimage{objective} 
+\cardprice{8} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Obj 13} 
+\cardborder{} 
+\cardcontent{If 4 or more \melee} 
+\cardimage{objective} 
+\cardprice{10} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Obj 2} 
+\cardborder{} 
+\cardcontent{If 1 or more \roam and 2 or more \push} 
+\cardimage{objective} 
+\cardprice{11} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Obj 3} 
+\cardborder{} 
+\cardcontent{Per \vision} 
+\cardimage{objective} 
+\cardprice{3*} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Obj 5} 
+\cardborder{} 
+\cardcontent{If combined sum of \melee and \vision is 6 or more.} 
+\cardimage{objective} 
+\cardprice{12} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Obj 6} 
+\cardborder{} 
+\cardcontent{If 3 or more \push} 
+\cardimage{objective} 
+\cardprice{10} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Obj 7} 
+\cardborder{} 
+\cardcontent{If 1 or more \vision and opponent has 2 or more \roam} 
+\cardimage{objective} 
+\cardprice{12} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Obj 8} 
+\cardborder{} 
+\cardcontent{If exactly 2 \ranged and 2 or more \vision} 
+\cardimage{objective} 
+\cardprice{10} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Obj 9} 
+\cardborder{} 
+\cardcontent{If exactly 2 \roam} 
+\cardimage{objective} 
+\cardprice{10} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{support} 
+\cardtitle{Medic} 
+\cardborder{} 
+\cardcontent{5 \vp if exactly 1 \roam} 
+\cardimage{ranged} 
+\cardprice{4\vp} 
+\stance{ranged} 
+\attributes{Vision}{Push}{notRoam} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{support} 
+\cardtitle{Kharazim} 
+\cardborder{} 
+\cardcontent{3 \vp if 1 or more \push and 1 or more \roam } 
+\cardimage{melee} 
+\cardprice{5\vp} 
+\stance{melee} 
+\attributes{Vision}{notPush}{notRoam} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{support} 
+\cardtitle{Uther} 
+\cardborder{} 
+\cardcontent{10 \vp if exactly 5 \vision} 
+\cardimage{melee} 
+\cardprice{4\vp} 
+\stance{melee} 
+\attributes{Vision}{notPush}{notRoam} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{support} 
+\cardtitle{Lili} 
+\cardborder{} 
+\cardcontent{3 \vp if Valla} 
+\cardimage{ranged} 
+\cardprice{4\vp} 
+\stance{ranged} 
+\attributes{notVision}{notPush}{Roam} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{support} 
+\cardtitle{Brightwing} 
+\cardborder{} 
+\cardcontent{Opponent loses 1 \roam} 
+\cardimage{melee} 
+\cardprice{5\vp} 
+\stance{melee} 
+\attributes{notVision}{Push}{notRoam} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{warrior} 
+\cardtitle{Rexxar} 
+\cardborder{} 
+\cardcontent{} 
+\cardimage{ranged} 
+\cardprice{8\vp} 
+\stance{ranged} 
+\attributes{notVision}{notPush}{notRoam} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{warrior} 
+\cardtitle{Diablo} 
+\cardborder{} 
+\cardcontent{5 \vp if 2 or less \push} 
+\cardimage{melee} 
+\cardprice{3\vp} 
+\stance{melee} 
+\attributes{Vision}{Push}{notRoam} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{warrior} 
+\cardtitle{Sonya} 
+\cardborder{} 
+\cardcontent{3 \vp if exactly 2 \vision} 
+\cardimage{melee} 
+\cardprice{3\vp} 
+\stance{melee} 
+\attributes{Vision}{Push}{Roam} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{warrior} 
+\cardtitle{ETC} 
+\cardborder{} 
+\cardcontent{4 \vp if 2 or more \ranged} 
+\cardimage{melee} 
+\cardprice{6\vp} 
+\stance{melee} 
+\attributes{Vision}{notPush}{notRoam} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{warrior} 
+\cardtitle{Leoric} 
+\cardborder{} 
+\cardcontent{4 \vp if 3 or more \vision} 
+\cardimage{melee} 
+\cardprice{4\vp} 
+\stance{melee} 
+\attributes{notVision}{notPush}{Roam} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Team Comp} 
+\cardborder{} 
+\cardcontent{If 1 Assassin, 1 Specialist, 2 Support, 1 Warrior} 
+\cardimage{team} 
+\cardprice{15} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Team Comp} 
+\cardborder{} 
+\cardcontent{If 1 Assassin, 1 Specialist, 1 Support, 2 Warriors} 
+\cardimage{team} 
+\cardprice{15} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Team Comp} 
+\cardborder{} 
+\cardcontent{If 1 Assassin, 2 Support, 2 Warrior} 
+\cardimage{team} 
+\cardprice{18} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Team Comp} 
+\cardborder{} 
+\cardcontent{If 2 Assassin, 1 Specialist, 2 Support} 
+\cardimage{team} 
+\cardprice{18} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Team Comp} 
+\cardborder{} 
+\cardcontent{If 1 Assassin, 2 Specialist, 2 Warrior} 
+\cardimage{team} 
+\cardprice{18} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Team Comp} 
+\cardborder{} 
+\cardcontent{If 2 Specialist, 1 Support, 2 Warrior} 
+\cardimage{team} 
+\cardprice{18} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Team Comp} 
+\cardborder{} 
+\cardcontent{If 1 Assassin, 1 Support, 3 Warrior} 
+\cardimage{team} 
+\cardprice{21} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Team Comp} 
+\cardborder{} 
+\cardcontent{If 1 Assassin, 3 Specialist, 1 Support} 
+\cardimage{team} 
+\cardprice{21} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Team Comp} 
+\cardborder{} 
+\cardcontent{If 3 Assassin, 2 Support} 
+\cardimage{team} 
+\cardprice{24} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Team Comp} 
+\cardborder{} 
+\cardcontent{If 3 Assassin, 2 Warrior} 
+\cardimage{team} 
+\cardprice{24} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Team Comp} 
+\cardborder{} 
+\cardcontent{If 1 Support, 4 Specialist} 
+\cardimage{team} 
+\cardprice{27} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Haunted} 
+\cardborder{} 
+\cardcontent{Most \push} 
+\cardimage{map} 
+\cardprice{10} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Dragonshire} 
+\cardborder{} 
+\cardcontent{Most \vision} 
+\cardimage{map} 
+\cardprice{10} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Cursed} 
+\cardborder{} 
+\cardcontent{Most \roam} 
+\cardimage{map} 
+\cardprice{10} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Booty} 
+\cardborder{} 
+\cardcontent{Most \melee} 
+\cardimage{map} 
+\cardprice{10} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{Objective} 
+\cardtitle{Towers of} 
+\cardborder{} 
+\cardcontent{Most \ranged} 
+\cardimage{map} 
+\cardprice{10} 
+\end{tikzpicture}
+\hspace{-4mm}
+
+
+
+\end{center}
+\end{document}
