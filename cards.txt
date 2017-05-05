@@ -1,472 +1,1031 @@
 \begin{tikzpicture} 
-\cardbackground{assassin} 
-\cardtitle{Zeratul} 
-\cardborder{} 
-\cardcontent{4 \vp if opponent has 3 or less \melee} 
-\cardimage{melee} 
-\cardprice{5\vp} 
-\stance{melee} 
-\attributes{Vision}{Push}{notRoam} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{assassin} 
-\cardtitle{Valla} 
-\cardborder{} 
-\cardcontent{} 
-\cardimage{ranged} 
-\cardprice{5\vp} 
-\stance{ranged} 
-\attributes{Vision}{Push}{Roam} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{assassin} 
-\cardtitle{Nova} 
-\cardborder{} 
-\cardcontent{6 \vp if 3 or more \melee} 
-\cardimage{ranged} 
-\cardprice{6\vp} 
-\stance{ranged} 
-\attributes{Vision}{notPush}{notRoam} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{assassin} 
-\cardtitle{KT} 
-\cardborder{} 
-\cardcontent{5 \vp if exactly 2 \push} 
-\cardimage{ranged} 
-\cardprice{4\vp} 
-\stance{ranged} 
-\attributes{notVision}{Push}{notRoam} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{assassin} 
-\cardtitle{Jaina} 
-\cardborder{} 
-\cardcontent{} 
-\cardimage{ranged} 
-\cardprice{8\vp} 
-\stance{ranged} 
-\attributes{notVision}{notPush}{notRoam} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
 \cardbackground{specialist} 
-\cardtitle{Murky} 
+\cardtitle{Abathur} 
 \cardborder{} 
-\cardcontent{11 \vp if 3 or more \roam} 
-\cardimage{melee} 
-\cardprice{2\vp} 
-\stance{melee} 
-\attributes{notVision}{notPush}{notRoam} 
-\end{tikzpicture}
+\cardcontent{You may pass your turn without playing a hero once during the laning phase.} 
+\cardimage{abathur} 
+\cardprice{} 
+\stance{abathur} 
+\first{vision}
+\second{push}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{specialist} 
-\cardtitle{TLV} 
+\cardbackground{warrior} 
+\cardtitle{Anub'arak} 
 \cardborder{} 
-\cardcontent{1 \vp for each \vision} 
-\cardimage{melee} 
-\cardprice{3\vp} 
-\stance{melee} 
-\attributes{notVision}{Push}{Roam} 
-\end{tikzpicture}
+\cardcontent{\bigPush \bigPush \bigPush if \roam on one friendly hero in lane.} 
+\cardimage{anubarak} 
+\cardprice{} 
+\stance{anubarak} 
+\first{vision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{specialist} 
-\cardtitle{Sylvanas} 
+\cardbackground{warrior} 
+\cardtitle{Artanis} 
 \cardborder{} 
-\cardcontent{7 \vp if more \vision than opponent} 
-\cardimage{ranged} 
-\cardprice{4\vp} 
-\stance{ranged} 
-\attributes{Vision}{Push}{notRoam} 
-\end{tikzpicture}
+\cardcontent{When played to lane, opponent must play to same lane on their next turn.} 
+\cardimage{artanis} 
+\cardprice{} 
+\stance{artanis} 
+\first{roam}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{specialist} 
-\cardtitle{Zagara} 
+\cardbackground{warrior} 
+\cardtitle{Arthas} 
 \cardborder{} 
-\cardcontent{Counts as 2 \vision.} 
-\cardimage{ranged} 
-\cardprice{3\vp} 
-\stance{ranged} 
-\attributes{Vision}{notPush}{notRoam} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{specialist} 
-\cardtitle{Hammer} 
-\cardborder{} 
-\cardcontent{3 \vp if KT} 
-\cardimage{ranged} 
-\cardprice{4\vp} 
-\stance{ranged} 
-\attributes{notVision}{notPush}{Roam} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Obj 1} 
-\cardborder{} 
-\cardcontent{If no \vision} 
-\cardimage{objective} 
-\cardprice{10} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Obj 10} 
-\cardborder{} 
-\cardcontent{If more \roam than your opponent} 
-\cardimage{objective} 
-\cardprice{10} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Obj 11} 
-\cardborder{} 
-\cardcontent{Your \push squared} 
-\cardimage{objective} 
-\cardprice{*} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Obj 12} 
-\cardborder{} 
-\cardcontent{If 3 or more \ranged} 
-\cardimage{objective} 
-\cardprice{8} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Obj 13} 
-\cardborder{} 
-\cardcontent{If 4 or more \melee} 
-\cardimage{objective} 
-\cardprice{10} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Obj 2} 
-\cardborder{} 
-\cardcontent{If 1 or more \roam and 2 or more \push} 
-\cardimage{objective} 
-\cardprice{11} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Obj 3} 
-\cardborder{} 
-\cardcontent{Per \vision} 
-\cardimage{objective} 
-\cardprice{3*} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Obj 5} 
-\cardborder{} 
-\cardcontent{If combined sum of \melee and \vision is 6 or more.} 
-\cardimage{objective} 
-\cardprice{12} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Obj 6} 
-\cardborder{} 
-\cardcontent{If 3 or more \push} 
-\cardimage{objective} 
-\cardprice{10} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Obj 7} 
-\cardborder{} 
-\cardcontent{If 1 or more \vision and opponent has 2 or more \roam} 
-\cardimage{objective} 
-\cardprice{12} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Obj 8} 
-\cardborder{} 
-\cardcontent{If exactly 2 \ranged and 2 or more \vision} 
-\cardimage{objective} 
-\cardprice{10} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Obj 9} 
-\cardborder{} 
-\cardcontent{If exactly 2 \roam} 
-\cardimage{objective} 
-\cardprice{10} 
-\end{tikzpicture}
+\cardimage{arthas} 
+\cardprice{} 
+\stance{arthas} 
+\first{vision}
+\second{push}
+\third{push}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
 \cardbackground{support} 
-\cardtitle{Medic} 
+\cardtitle{Auriel} 
 \cardborder{} 
-\cardcontent{5 \vp if exactly 1 \roam} 
-\cardimage{ranged} 
-\cardprice{4\vp} 
-\stance{ranged} 
-\attributes{Vision}{Push}{notRoam} 
-\end{tikzpicture}
+\cardimage{auriel} 
+\cardprice{} 
+\stance{auriel} 
+\first{vision}
+\second{vision}
+\third{push}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{support} 
-\cardtitle{Kharazim} 
+\cardbackground{multi} 
+\cardtitle{Azmodan} 
 \cardborder{} 
-\cardcontent{3 \vp if 1 or more \push and 1 or more \roam } 
-\cardimage{melee} 
-\cardprice{5\vp} 
-\stance{melee} 
-\attributes{Vision}{notPush}{notRoam} 
-\end{tikzpicture}
+\cardcontent{\warrior or \specialist Choose when this hero is played to lane.} 
+\cardimage{azmodan} 
+\cardprice{} 
+\stance{azmodan} 
+\first{vision}
+\second{vision}
+\third{vision}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{support} 
-\cardtitle{Uther} 
+\cardbackground{player} 
+\cardtitle{Grubby} 
 \cardborder{} 
-\cardcontent{10 \vp if exactly 5 \vision} 
-\cardimage{melee} 
-\cardprice{4\vp} 
-\stance{melee} 
-\attributes{Vision}{notPush}{notRoam} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{support} 
-\cardtitle{Lili} 
-\cardborder{} 
-\cardcontent{3 \vp if Valla} 
-\cardimage{ranged} 
-\cardprice{4\vp} 
-\stance{ranged} 
-\attributes{notVision}{notPush}{Roam} 
-\end{tikzpicture}
+\cardcontent{if \assassin or \specialist} 
+\cardimage{grubby} 
+\cardprice{} 
+\stance{grubby} 
+\first{vision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
 \cardbackground{support} 
 \cardtitle{Brightwing} 
 \cardborder{} 
-\cardcontent{Opponent loses 1 \roam} 
-\cardimage{melee} 
-\cardprice{5\vp} 
-\stance{melee} 
-\attributes{notVision}{Push}{notRoam} 
-\end{tikzpicture}
+\cardimage{brightwing} 
+\cardprice{} 
+\stance{brightwing} 
+\first{vision}
+\second{roam}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{warrior} 
-\cardtitle{Rexxar} 
+\cardbackground{player} 
+\cardtitle{Blumbi} 
 \cardborder{} 
-\cardcontent{} 
-\cardimage{ranged} 
-\cardprice{8\vp} 
-\stance{ranged} 
-\attributes{notVision}{notPush}{notRoam} 
-\end{tikzpicture}
+\cardcontent{if \push} 
+\cardimage{player} 
+\cardprice{} 
+\stance{player} 
+\first{vision}
+\second{push}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{assassin} 
+\cardtitle{Chromie} 
+\cardborder{} 
+\cardcontent{3\vp} 
+\cardimage{chromie} 
+\cardprice{} 
+\stance{chromie} 
+\first{vision}
+\second{vision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
 \cardbackground{warrior} 
 \cardtitle{Diablo} 
 \cardborder{} 
-\cardcontent{5 \vp if 2 or less \push} 
-\cardimage{melee} 
-\cardprice{3\vp} 
-\stance{melee} 
-\attributes{Vision}{Push}{notRoam} 
-\end{tikzpicture}
+\cardimage{diablo} 
+\cardprice{} 
+\stance{diablo} 
+\first{vision}
+\second{vision}
+\third{push}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{player} 
+\cardtitle{Darkmok} 
+\cardborder{} 
+\cardcontent{if \support or \assassin} 
+\cardimage{player} 
+\cardprice{} 
+\stance{player} 
+\first{vision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{player} 
+\cardtitle{HasuObs} 
+\cardborder{} 
+\cardcontent{if \support or \warrior} 
+\cardimage{player} 
+\cardprice{} 
+\stance{player} 
+\first{vision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{assassin} 
+\cardtitle{Falstad} 
+\cardborder{} 
+\cardcontent{\bigVision \bigVision \bigVision OR \bigRoam. Choose when this hero is played to lane.} 
+\cardimage{falstad} 
+\cardprice{} 
+\stance{falstad} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{player} 
+\cardtitle{Nurok} 
+\cardborder{} 
+\cardcontent{If \specialist} 
+\cardimage{player} 
+\cardprice{} 
+\stance{player} 
+\first{push}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{specialist} 
+\cardtitle{Gazlowe} 
+\cardborder{} 
+\cardimage{gazlowe} 
+\cardprice{} 
+\stance{gazlowe} 
+\first{vision}
+\second{vision}
+\third{vision}
+\fourth{vision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{assassin} 
+\cardtitle{Greymane} 
+\cardborder{} 
+\cardimage{greymane} 
+\cardprice{} 
+\stance{greymane} 
+\first{vision}
+\second{push}
+\third{push}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{player} 
+\cardtitle{Splendour} 
+\cardborder{} 
+\cardcontent{If \assassin} 
+\cardimage{player} 
+\cardprice{} 
+\stance{player} 
+\first{push}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{assassin} 
+\cardtitle{Jaina} 
+\cardborder{} 
+\cardimage{jaina} 
+\cardprice{} 
+\stance{jaina} 
+\first{vision}
+\second{vision}
+\third{push}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
 \cardbackground{warrior} 
-\cardtitle{Sonya} 
+\cardtitle{Johanna} 
 \cardborder{} 
-\cardcontent{3 \vp if exactly 2 \vision} 
-\cardimage{melee} 
-\cardprice{3\vp} 
-\stance{melee} 
-\attributes{Vision}{Push}{Roam} 
-\end{tikzpicture}
+\cardimage{johanna} 
+\cardprice{} 
+\stance{johanna} 
+\first{vision}
+\second{vision}
+\third{vision}
+\fourth{vision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{warrior} 
-\cardtitle{ETC} 
+\cardbackground{assassin} 
+\cardtitle{Kael'thas} 
 \cardborder{} 
-\cardcontent{4 \vp if 2 or more \ranged} 
-\cardimage{melee} 
+\cardimage{kaelthas} 
+\cardprice{} 
+\stance{kaelthas} 
+\first{vision}
+\second{vision}
+\third{vision}
+\fourth{vision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{multi} 
+\cardtitle{Kharazim} 
+\cardborder{} 
+\cardcontent{\support or \assassin Choose when this hero is played to lane.} 
+\cardimage{kharazim} 
+\cardprice{} 
+\stance{kharazim} 
+\first{push}
+\second{push}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{lane} 
+\cardtitle{} 
+\stance{} 
+\cardborder{} 
+\cardcontent{Most \vision} 
+\cardimage{lane} 
 \cardprice{6\vp} 
-\stance{melee} 
-\attributes{Vision}{notPush}{notRoam} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{lane} 
+\cardtitle{} 
+\stance{} 
+\cardborder{} 
+\cardcontent{Most \roam. \vision and \push count as minus toward your \roam count.} 
+\cardimage{lane} 
+\cardprice{11\vp} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{lane} 
+\cardtitle{} 
+\stance{} 
+\cardborder{} 
+\cardcontent{Most pairs of \vision and \roam} 
+\cardimage{lane} 
+\cardprice{8\vp} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{lane} 
+\cardtitle{} 
+\stance{} 
+\cardborder{} 
+\cardcontent{Most \push} 
+\cardimage{lane} 
+\cardprice{6\vp} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{lane} 
+\cardtitle{} 
+\stance{} 
+\cardborder{} 
+\cardcontent{Most \roam} 
+\cardimage{lane} 
+\cardprice{6\vp} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{lane} 
+\cardtitle{} 
+\stance{} 
+\cardborder{} 
+\cardcontent{Most pairs of \push and \roam} 
+\cardimage{lane} 
+\cardprice{8\vp} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{lane} 
+\cardtitle{} 
+\stance{} 
+\cardborder{} 
+\cardcontent{Most pairs of \vision and \push} 
+\cardimage{lane} 
+\cardprice{8\vp} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{lane} 
+\cardtitle{} 
+\stance{} 
+\cardborder{} 
+\cardcontent{Most triplets of \vision, \push and \roam} 
+\cardimage{lane} 
+\cardprice{10\vp} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{lane} 
+\cardtitle{} 
+\stance{} 
+\cardborder{} 
+\cardcontent{Most \vision. \push and \roam count as minus toward your \vision count.} 
+\cardimage{lane} 
+\cardprice{7\vp} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{lane} 
+\cardtitle{} 
+\stance{} 
+\cardborder{} 
+\cardcontent{Most \push. \vision and \roam count as minus toward your \push count.} 
+\cardimage{lane} 
+\cardprice{9\vp} 
 \end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
 \cardbackground{warrior} 
 \cardtitle{Leoric} 
 \cardborder{} 
-\cardcontent{4 \vp if 3 or more \vision} 
-\cardimage{melee} 
-\cardprice{4\vp} 
-\stance{melee} 
-\attributes{notVision}{notPush}{Roam} 
+\cardimage{leoric} 
+\cardprice{} 
+\stance{leoric} 
+\first{vision}
+\second{roam}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{support} 
+\cardtitle{Li Li} 
+\cardborder{} 
+\cardimage{lili} 
+\cardprice{} 
+\stance{lili} 
+\first{vision}
+\second{vision}
+\third{vision}
+\fourth{vision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{support} 
+\cardtitle{Lt. Morales} 
+\cardborder{} 
+\cardimage{medic} 
+\cardprice{} 
+\stance{medic} 
+\first{push}
+\second{roam}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{support} 
+\cardtitle{Malfurion} 
+\cardborder{} 
+\cardcontent{\bigVision \bigPush \bigRoam This hero's icons can only gain points via laning.} 
+\cardimage{malfurion} 
+\cardprice{} 
+\stance{malfurion} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{map} 
+\cardtitle{Battlefield of Eternity} 
+\stance{Battlefield of Eternity} 
+\cardborder{} 
+\cardcontent{3 Lanes. \newline 1\vp per \vision} 
+\cardimage{battlefield} 
+\cardprice{} 
 \end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Team Comp} 
+\cardbackground{map} 
+\cardtitle{Blackheart's Bay} 
+\stance{Blackheart's Bay} 
 \cardborder{} 
-\cardcontent{If 1 Assassin, 1 Specialist, 2 Support, 1 Warrior} 
+\cardcontent{3 Lanes \newline 2\vp per \push} 
+\cardimage{blackheart} 
+\cardprice{} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{map} 
+\cardtitle{Braxis Holdout} 
+\stance{Braxis Holdout} 
+\cardborder{} 
+\cardcontent{3 Lanes. First lane drawn is worth 2x points. \newline 1\vp per \push} 
+\cardimage{braxis} 
+\cardprice{} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{map} 
+\cardtitle{Cursed Hollow} 
+\stance{Cursed Hollow} 
+\cardborder{} 
+\cardcontent{2 Lanes. \newline 2\vp per \vision} 
+\cardimage{cursed} 
+\cardprice{} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{map} 
+\cardtitle{Dragon Shire} 
+\stance{Dragon Shire} 
+\cardborder{} 
+\cardcontent{3 Lanes. \newline 3\vp per \roam} 
+\cardimage{dragon} 
+\cardprice{} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{map} 
+\cardtitle{Garden of Terror} 
+\stance{Garden of Terror} 
+\cardborder{} 
+\cardcontent{2 Lanes. \newline 4\vp per \roam} 
+\cardimage{garden} 
+\cardprice{} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{map} 
+\cardtitle{Hanamura} 
+\stance{Hanamura} 
+\cardborder{} 
+\cardcontent{3 Lanes. First lane drawn is worth 2x points. \newline 2\vp per \roam} 
+\cardimage{hanamura} 
+\cardprice{} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{map} 
+\cardtitle{Haunted Mines} 
+\stance{Haunted Mines} 
+\cardborder{} 
+\cardcontent{2 Lanes. \newline 3\vp per \push} 
+\cardimage{haunted} 
+\cardprice{} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{specialist} 
+\cardtitle{Medivh} 
+\cardborder{} 
+\cardcontent{Fulfills player conditions automatically.} 
+\cardimage{medivh} 
+\cardprice{} 
+\stance{medivh} 
+\first{vision}
+\second{push}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{player} 
+\cardtitle{CauthonLuck} 
+\cardborder{} 
+\cardcontent{if \assassin or \warrior} 
+\cardimage{player} 
+\cardprice{} 
+\stance{player} 
+\first{vision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{player} 
+\cardtitle{Fury} 
+\cardborder{} 
+\cardcontent{If \support} 
+\cardimage{player} 
+\cardprice{} 
+\stance{player} 
+\first{push}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{specialist} 
+\cardtitle{Murky} 
+\cardborder{} 
+\cardimage{murky} 
+\cardprice{} 
+\stance{murky} 
+\first{vision}
+\second{vision}
+\third{push}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{specialist} 
+\cardtitle{Nazeebo} 
+\cardborder{} 
+\cardimage{nazeebo} 
+\cardprice{} 
+\stance{nazeebo} 
+\first{vision}
+\second{roam}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{player} 
+\cardtitle{cattlepillar} 
+\cardborder{} 
+\cardcontent{3\vp if \push} 
+\cardimage{player} 
+\cardprice{} 
+\stance{player} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{player} 
+\cardtitle{Jun} 
+\cardborder{} 
+\cardcontent{If \warrior} 
+\cardimage{player} 
+\cardprice{} 
+\stance{player} 
+\first{push}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{assassin} 
+\cardtitle{Nova} 
+\cardborder{} 
+\cardimage{nova} 
+\cardprice{} 
+\stance{nova} 
+\first{vision}
+\second{roam}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{support} 
+\cardtitle{Rehgar} 
+\cardborder{} 
+\cardcontent{When played to lane, you may swap two friendly heroes in play.} 
+\cardimage{rehgar} 
+\cardprice{} 
+\stance{rehgar} 
+\first{vision}
+\second{vision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{warrior} 
+\cardtitle{Rexxar} 
+\cardborder{} 
+\cardimage{rexxar} 
+\cardprice{} 
+\stance{rexxar} 
+\first{push}
+\second{roam}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{specialist} 
+\cardtitle{Sgt. Hammer} 
+\cardborder{} 
+\cardimage{hammer} 
+\cardprice{} 
+\stance{hammer} 
+\first{vision}
+\second{push}
+\third{push}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{player} 
+\cardtitle{psalm} 
+\cardborder{} 
+\cardcontent{4\vp if \roam} 
+\cardimage{player} 
+\cardprice{} 
+\stance{player} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{warrior} 
+\cardtitle{Sonya} 
+\cardborder{} 
+\cardcontent{Double the icons on another hero in the same lane.} 
+\cardimage{sonya} 
+\cardprice{} 
+\stance{sonya} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{specialist} 
+\cardtitle{Sylvanas} 
+\cardborder{} 
+\cardimage{sylvanas} 
+\cardprice{} 
+\stance{sylvanas} 
+\first{push}
+\second{roam}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{player} 
+\cardtitle{Equinox} 
+\cardborder{} 
+\cardcontent{2\vp if \vision} 
+\cardimage{player} 
+\cardprice{} 
+\stance{player} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{multi} 
+\cardtitle{Tassadar} 
+\cardborder{} 
+\cardcontent{\specialist or \support Choose when this hero is played to lane.} 
+\cardimage{tassadar} 
+\cardprice{} 
+\stance{tassadar} 
+\first{roam}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{team} 
+\cardtitle{Team 1} 
+\cardborder{} 
+\cardcontent{6\vp if 3A \newline  9\vp if 3A 1B \newline  12\vp if 3A 2B} 
 \cardimage{team} 
-\cardprice{15} 
-\end{tikzpicture}
+\cardprice{} 
+\stance{team} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Team Comp} 
+\cardbackground{team} 
+\cardtitle{Team 10} 
 \cardborder{} 
-\cardcontent{If 1 Assassin, 1 Specialist, 1 Support, 2 Warriors} 
+\cardcontent{5\vp if 2A 1B \newline  7\vp if 2A 1B 1C \newline  9\vp if 2A 1B 1C 1D} 
 \cardimage{team} 
-\cardprice{15} 
-\end{tikzpicture}
+\cardprice{} 
+\stance{team} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Team Comp} 
+\cardbackground{team} 
+\cardtitle{Team 11} 
 \cardborder{} 
-\cardcontent{If 1 Assassin, 2 Support, 2 Warrior} 
+\cardcontent{4\vp if 1A 1B 1C \newline  7\vp if 2A 1B 1C \newline  9\vp if 2A 1B 1C 1D} 
 \cardimage{team} 
-\cardprice{18} 
-\end{tikzpicture}
+\cardprice{} 
+\stance{team} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Team Comp} 
+\cardbackground{team} 
+\cardtitle{Team 12} 
 \cardborder{} 
-\cardcontent{If 2 Assassin, 1 Specialist, 2 Support} 
+\cardcontent{4\vp if 1A 1B 1C \newline  6\vp if 1A 1B 1C 1D \newline  9\vp if 2A 1B 1C 1D} 
 \cardimage{team} 
-\cardprice{18} 
-\end{tikzpicture}
+\cardprice{} 
+\stance{team} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Team Comp} 
+\cardbackground{team} 
+\cardtitle{Team 2} 
 \cardborder{} 
-\cardcontent{If 1 Assassin, 2 Specialist, 2 Warrior} 
+\cardcontent{5\vp if 2A 1B \newline  9\vp if 3A 1B \newline  12\vp if 3A 2B} 
 \cardimage{team} 
-\cardprice{18} 
-\end{tikzpicture}
+\cardprice{} 
+\stance{team} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Team Comp} 
+\cardbackground{team} 
+\cardtitle{Team 3} 
 \cardborder{} 
-\cardcontent{If 2 Specialist, 1 Support, 2 Warrior} 
+\cardcontent{5\vp if 2A 1B \newline  8\vp if 2A 2B \newline  12\vp if 3A 2B} 
 \cardimage{team} 
-\cardprice{18} 
-\end{tikzpicture}
+\cardprice{} 
+\stance{team} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Team Comp} 
+\cardbackground{team} 
+\cardtitle{Team 4} 
 \cardborder{} 
-\cardcontent{If 1 Assassin, 1 Support, 3 Warrior} 
+\cardcontent{6\vp if 3A \newline  9\vp if 3A 1B \newline  11\vp if 3A 1B 1C} 
 \cardimage{team} 
-\cardprice{21} 
-\end{tikzpicture}
+\cardprice{} 
+\stance{team} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Team Comp} 
+\cardbackground{team} 
+\cardtitle{Team 5} 
 \cardborder{} 
-\cardcontent{If 1 Assassin, 3 Specialist, 1 Support} 
+\cardcontent{5\vp if 2A 1B \newline  7\vp if 2A 1B 1C \newline  11\vp if 3A 1B 1C} 
 \cardimage{team} 
-\cardprice{21} 
-\end{tikzpicture}
+\cardprice{} 
+\stance{team} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Team Comp} 
+\cardbackground{team} 
+\cardtitle{Team 6} 
 \cardborder{} 
-\cardcontent{If 3 Assassin, 2 Support} 
+\cardcontent{4\vp if 1A 1B 1C \newline  7\vp if 2A 1B 1C \newline  11\vp if 3A 1B 1C} 
 \cardimage{team} 
-\cardprice{24} 
-\end{tikzpicture}
+\cardprice{} 
+\stance{team} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Team Comp} 
+\cardbackground{team} 
+\cardtitle{Team 7} 
 \cardborder{} 
-\cardcontent{If 3 Assassin, 2 Warrior} 
+\cardcontent{5\vp if 2A 1B \newline  8\vp if 2A 2B \newline  10\vp if 2A 2B 1C} 
 \cardimage{team} 
-\cardprice{24} 
-\end{tikzpicture}
+\cardprice{} 
+\stance{team} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Team Comp} 
+\cardbackground{team} 
+\cardtitle{Team 8} 
 \cardborder{} 
-\cardcontent{If 1 Support, 4 Specialist} 
+\cardcontent{5\vp if 2A 1B \newline  7\vp if 2A 1B 1C \newline  10\vp if 2A 2B 1C} 
 \cardimage{team} 
-\cardprice{27} 
-\end{tikzpicture}
+\cardprice{} 
+\stance{team} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Haunted} 
+\cardbackground{team} 
+\cardtitle{Team 9} 
 \cardborder{} 
-\cardcontent{Most \push} 
-\cardimage{map} 
-\cardprice{10} 
-\end{tikzpicture}
+\cardcontent{4\vp if 1A 1B 1C \newline  7\vp if 2A 1B 1C \newline  10\vp if 2A 2B 1C} 
+\cardimage{team} 
+\cardprice{} 
+\stance{team} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Dragonshire} 
+\cardbackground{player} 
+\cardtitle{Fan} 
 \cardborder{} 
-\cardcontent{Most \vision} 
-\cardimage{map} 
-\cardprice{10} 
-\end{tikzpicture}
+\cardcontent{if \vision and \push} 
+\cardimage{player} 
+\cardprice{} 
+\stance{player} 
+\first{push}
+\second{push}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Cursed} 
+\cardbackground{player} 
+\cardtitle{MichaelUdall} 
 \cardborder{} 
-\cardcontent{Most \roam} 
-\cardimage{map} 
-\cardprice{10} 
-\end{tikzpicture}
+\cardcontent{if \specialist or \warrior} 
+\cardimage{player} 
+\cardprice{} 
+\stance{player} 
+\first{vision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Booty} 
+\cardbackground{support} 
+\cardtitle{Tyrande} 
 \cardborder{} 
-\cardcontent{Most \melee} 
-\cardimage{map} 
-\cardprice{10} 
-\end{tikzpicture}
+\cardimage{tyrande} 
+\cardprice{} 
+\stance{tyrande} 
+\first{vision}
+\second{push}
+\third{push}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{Objective} 
-\cardtitle{Towers of} 
+\cardbackground{support} 
+\cardtitle{Uther} 
 \cardborder{} 
-\cardcontent{Most \ranged} 
-\cardimage{map} 
-\cardprice{10} 
-\end{tikzpicture}
+\cardcontent{\bigPush \bigRoam \bigRoam if only friendly hero in lane.} 
+\cardimage{uther} 
+\cardprice{} 
+\stance{uther} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{assassin} 
+\cardtitle{Valla} 
+\cardborder{} 
+\cardimage{valla} 
+\cardprice{} 
+\stance{valla} 
+\first{push}
+\second{roam}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{multi} 
+\cardtitle{Varian} 
+\cardborder{} 
+\cardcontent{\assassin or \warrior Choose when this hero is played to lane.} 
+\cardimage{varian} 
+\cardprice{} 
+\stance{varian} 
+\first{vision}
+\second{push}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{player} 
+\cardtitle{akaface} 
+\cardborder{} 
+\cardcontent{if \roam} 
+\cardimage{player} 
+\cardprice{} 
+\stance{player} 
+\first{vision}
+\second{roam}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{player} 
+\cardtitle{Khroen} 
+\cardborder{} 
+\cardcontent{if \support or \specialist} 
+\cardimage{player} 
+\cardprice{} 
+\stance{player} 
+\first{vision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{specialist} 
+\cardtitle{Xul} 
+\cardborder{} 
+\cardcontent{When played to lane, choose a hero. Opponent must play that hero on their next turn.} 
+\cardimage{xul} 
+\cardprice{} 
+\stance{xul} 
+\first{push}
+\second{push}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{specialist} 
+\cardtitle{Zagara} 
+\cardborder{} 
+\cardcontent{\bigRoam \bigRoam if \push on one friendly hero in lane.} 
+\cardimage{zagara} 
+\cardprice{} 
+\stance{zagara} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{player} 
+\cardtitle{Prismaticism} 
+\cardborder{} 
+\cardcontent{if \vision} 
+\cardimage{player} 
+\cardprice{} 
+\stance{player} 
+\first{push}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{assassin} 
+\cardtitle{Zeratul} 
+\cardborder{} 
+\cardcontent{\bigPush \bigRoam if 2\vision on one friendly hero in lane.} 
+\cardimage{zeratul} 
+\cardprice{} 
+\stance{zeratul} 
+\first{push}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{team} 
+\cardtitle{Sustain} 
+\cardborder{} 
+\cardcontent{4\vp if \warrior \warrior \support \newline 7\vp if \warrior \warrior \support \support \newline 11\vp if \warrior \warrior \support \support \assassin} 
+\cardimage{team} 
+\cardprice{} 
+\stance{team} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision}\end{tikzpicture}
 \hspace{-4mm}

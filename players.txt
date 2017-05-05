@@ -1,0 +1,17 @@
+\token{0*\squarewidth}{0*\squareheight}{if \assassin or \specialist}{vision}{}{}{Grubby}
+\token{1*\squarewidth}{0*\squareheight}{if \push}{vision}{push}{}{Blumbi}
+\token{2*\squarewidth}{0*\squareheight}{if \support or \assassin}{vision}{}{}{Darkmok}
+\token{3*\squarewidth}{0*\squareheight}{if \support or \warrior}{vision}{}{}{HasuObs}
+\token{4*\squarewidth}{0*\squareheight}{If \specialist}{push}{}{}{Nurok}
+\token{5*\squarewidth}{0*\squareheight}{If \assassin}{push}{}{}{Splendour}
+\token{6*\squarewidth}{0*\squareheight}{if \assassin or \warrior}{vision}{}{}{CauthonLuck}
+\token{7*\squarewidth}{0*\squareheight}{If \support}{push}{}{}{Fury}
+\token{8*\squarewidth}{0*\squareheight}{3\vp if \push}{}{}{}{cattlepillar}
+\token{0*\squarewidth}{1*\squareheight}{If \warrior}{push}{}{}{Jun}
+\token{1*\squarewidth}{1*\squareheight}{4\vp if \roam}{}{}{}{psalm}
+\token{2*\squarewidth}{1*\squareheight}{2\vp if \vision}{}{}{}{Equinox}
+\token{3*\squarewidth}{1*\squareheight}{if \vision and \push}{push}{push}{}{Fan}
+\token{4*\squarewidth}{1*\squareheight}{if \specialist or \warrior}{vision}{}{}{MichaelUdall}
+\token{5*\squarewidth}{1*\squareheight}{if \roam}{vision}{roam}{}{akaface}
+\token{6*\squarewidth}{1*\squareheight}{if \support or \specialist}{vision}{}{}{Khroen}
+\token{7*\squarewidth}{1*\squareheight}{if \vision}{push}{}{}{Prismaticism}

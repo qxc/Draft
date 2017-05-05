@@ -1,0 +1,81 @@
+\documentclass[landscape]{article}
+%   Pakete dazuladen
+\input{libs.tex}
+%   Farbdefinitionen laden
+\input{colors.tex}
+
+
+\pgfmathsetmacro{\squarewidth}{2.5}
+\pgfmathsetmacro{\squareheight}{2.25}
+\pgfmathsetmacro{\offset}{.5}
+\newcommand{\vp}{\includegraphics[height = .4cm]{vp} }
+
+\newcommand{\token}[4]{
+    \draw (#1,#2) rectangle (#1+\squarewidth, #2+\squareheight);
+		\node at (#1+\squarewidth/2.75,#2+\squareheight/1.75) {\includegraphics[height = 1.6cm]{#3}};
+		\node at (#1+\squarewidth/2.75,#2+\squareheight/8) {{#4\vp}};
+		%\node at (#1+\squarewidth/8,#2+\squareheight/1.15) {1\includegraphics[height = .35cm]{vp}};
+		\node at (#1+\squarewidth/1.1,#2+\squareheight/2.05) [rotate=270] {#3};
+}
+%input the height of the row
+
+\newcommand{\row}[2]{
+		\token{0}{#1}{#2};
+		\token{\squarewidth}{#1}{#2};
+		\token{2*\squarewidth}{#1}{#2};
+		\token{3*\squarewidth}{#1}{#2};
+		\token{4*\squarewidth}{#1}{#2};
+		\token{5*\squarewidth}{#1}{#2};
+		\token{6*\squarewidth}{#1}{#2};
+		\token{7*\squarewidth}{#1}{#2};
+		\token{8*\squarewidth}{#1}{#2};
+		\token{9*\squarewidth}{#1}{#2};
+		%\token{10*\squarewidth}{#1};
+		%\token{11*\squarewidth}{#1};
+		%\token{12*\squarewidth}{#1};
+		%\token{13*\squarewidth}{#1};
+		%\token{14*\squarewidth}{#1};
+}
+
+\begin{document}
+\begin{center}
+\pagestyle{empty}
+\begin{tikzpicture} 
+
+\end{tikzpicture}
+\begin{tikzpicture} 
+\token{9*\squarewidth}{6*\squareheight}{Warrior}{1}
+\token{8*\squarewidth}{6*\squareheight}{Assassin}{1}
+\token{7*\squarewidth}{6*\squareheight}{Specialist}{1}
+\token{6*\squarewidth}{6*\squareheight}{Support}{1}
+\token{5*\squarewidth}{6*\squareheight}{Warrior}{2}
+\token{4*\squarewidth}{6*\squareheight}{Warrior}{2}
+\token{3*\squarewidth}{6*\squareheight}{Assassin}{2}
+\token{2*\squarewidth}{6*\squareheight}{Assassin}{2}
+\token{1*\squarewidth}{6*\squareheight}{Specialist}{3}
+\token{0*\squarewidth}{6*\squareheight}{Specialist}{3}
+\token{9*\squarewidth}{7*\squareheight}{Support}{3}
+\token{8*\squarewidth}{7*\squareheight}{Support}{3}
+\token{7*\squarewidth}{7*\squareheight}{War-Supp}{3}
+\token{6*\squarewidth}{7*\squareheight}{War-Assa}{3}
+\token{5*\squarewidth}{7*\squareheight}{War-Spec}{3}
+\token{4*\squarewidth}{7*\squareheight}{Assa-Spec}{3}
+\token{3*\squarewidth}{7*\squareheight}{Assa-Supp}{3}
+\token{2*\squarewidth}{7*\squareheight}{Spec-Supp}{3}
+\token{1*\squarewidth}{7*\squareheight}{War-Supp}{4}
+\token{0*\squarewidth}{7*\squareheight}{War-Assa}{4}
+\token{9*\squarewidth}{8*\squareheight}{War-Spec}{4}
+\token{8*\squarewidth}{8*\squareheight}{Assa-Spec}{4}
+\token{7*\squarewidth}{8*\squareheight}{Assa-Supp}{4}
+\token{6*\squarewidth}{8*\squareheight}{Spec-Supp}{4}
+\token{5*\squarewidth}{8*\squareheight}{War-Supp}{5}
+\token{4*\squarewidth}{8*\squareheight}{War-Assa}{5}
+\token{3*\squarewidth}{8*\squareheight}{War-Spec}{5}
+\token{2*\squarewidth}{8*\squareheight}{Assa-Spec}{5}
+\token{1*\squarewidth}{8*\squareheight}{Assa-Supp}{5}
+\token{0*\squarewidth}{8*\squareheight}{Spec-Supp}{5}
+
+
+\end{tikzpicture}
+\end{center}
+\end{document}
