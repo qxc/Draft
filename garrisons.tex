@@ -12,8 +12,21 @@
 
 \newcommand{\token}[4]{
     \draw (#1,#2) rectangle (#1+\squarewidth, #2+\squareheight);
+		\node at (#1+\squarewidth/2,#2+\squareheight/1.7) {\includegraphics[height = 1.8cm]{#3}};
+		\node at (#1+\squarewidth/2,#2+\squareheight/8) {{#4\vp}};
+		%\node at (#1+\squarewidth/8,#2+\squareheight/1.15) {1\includegraphics[height = .35cm]{vp}};
+		%\node at (#1+\squarewidth/1.1,#2+\squareheight/2.05) [rotate=270] {#3};
+}
+\newcommand{\tokenS}[4]{
+    \draw (#1,#2) rectangle (#1+\squarewidth, #2+\squareheight);
+		\node at (#1+\squarewidth/2,#2+\squareheight/1.7) {\includegraphics[height = 1.4cm]{#3}};
+		\node at (#1+\squarewidth/2,#2+\squareheight/8) {{#4\vp}};
+		%\node at (#1+\squarewidth/8,#2+\squareheight/1.15) {1\includegraphics[height = .35cm]{vp}};
+		%\node at (#1+\squarewidth/1.1,#2+\squareheight/2.05) [rotate=270] {#3};
+}
+\newcommand{\tokenNoVP}[3]{
+    \draw (#1,#2) rectangle (#1+\squarewidth, #2+\squareheight);
 		\node at (#1+\squarewidth/2.75,#2+\squareheight/1.75) {\includegraphics[height = 1.6cm]{#3}};
-		\node at (#1+\squarewidth/2.75,#2+\squareheight/8) {{#4\vp}};
 		%\node at (#1+\squarewidth/8,#2+\squareheight/1.15) {1\includegraphics[height = .35cm]{vp}};
 		\node at (#1+\squarewidth/1.1,#2+\squareheight/2.05) [rotate=270] {#3};
 }
@@ -40,40 +53,77 @@
 \begin{document}
 \begin{center}
 \pagestyle{empty}
+
 \begin{tikzpicture} 
+\tokenS{9*\squarewidth}{6*\squareheight}{Flying}{1}
+\tokenS{8*\squarewidth}{6*\squareheight}{Ranged}{1}
+\tokenS{7*\squarewidth}{6*\squareheight}{Siege}{1}
+\tokenS{6*\squarewidth}{6*\squareheight}{Melee}{1}
+\tokenS{5*\squarewidth}{6*\squareheight}{Flying}{1}
+\tokenS{4*\squarewidth}{6*\squareheight}{Ranged}{1}
+\tokenS{3*\squarewidth}{6*\squareheight}{Siege}{1}
+\tokenS{2*\squarewidth}{6*\squareheight}{Melee}{1}
+\tokenS{1*\squarewidth}{6*\squareheight}{Flying}{2}
+\tokenS{0*\squarewidth}{6*\squareheight}{Melee}{2}
+\tokenS{9*\squarewidth}{5*\squareheight}{Ranged}{2}
+\tokenS{8*\squarewidth}{5*\squareheight}{Siege}{2}
+\token{0*\squarewidth}{7*\squareheight}{MeleeAndFlying}{3}
+\token{1*\squarewidth}{7*\squareheight}{FlyingAndRanged}{3}
+\token{9*\squarewidth}{7*\squareheight}{SiegeAndFlying}{3}
+\token{8*\squarewidth}{7*\squareheight}{SiegeAndRanged}{3}
+\token{7*\squarewidth}{7*\squareheight}{RangedAndMelee}{3}
+\token{6*\squarewidth}{7*\squareheight}{SiegeAndMelee}{3}
+\token{5*\squarewidth}{7*\squareheight}{FlyingAndMeleeAndRanged}{4}
+\token{4*\squarewidth}{7*\squareheight}{FlyingAndRangedAndSiege}{4}
+\token{3*\squarewidth}{7*\squareheight}{SiegeAndMeleeAndRanged}{4}
+\token{2*\squarewidth}{7*\squareheight}{FlyingAndMeleeAndSiege}{4}
+\tokenNoVP{1*\squarewidth}{8*\squareheight}{Melee}{}
+\tokenNoVP{0*\squarewidth}{8*\squareheight}{Melee}{}
+\tokenNoVP{2*\squarewidth}{8*\squareheight}{Ranged}{}
+\tokenNoVP{3*\squarewidth}{8*\squareheight}{Ranged}{}
+\tokenNoVP{4*\squarewidth}{8*\squareheight}{Siege}{}
+\tokenNoVP{5*\squarewidth}{8*\squareheight}{Siege}{}
+\tokenNoVP{6*\squarewidth}{8*\squareheight}{Flying}{}
+\tokenNoVP{7*\squarewidth}{8*\squareheight}{Vision}{}
+\tokenNoVP{8*\squarewidth}{8*\squareheight}{Push}{}
+\tokenNoVP{9*\squarewidth}{8*\squareheight}{Roam}{}
+\tokenNoVP{0*\squarewidth}{9*\squareheight}{Flying}{}
+
 
 \end{tikzpicture}
 \begin{tikzpicture} 
-\token{9*\squarewidth}{6*\squareheight}{Warrior}{1}
-\token{8*\squarewidth}{6*\squareheight}{Assassin}{1}
-\token{7*\squarewidth}{6*\squareheight}{Specialist}{1}
-\token{6*\squarewidth}{6*\squareheight}{Support}{1}
-\token{5*\squarewidth}{6*\squareheight}{Warrior}{2}
-\token{4*\squarewidth}{6*\squareheight}{Warrior}{2}
-\token{3*\squarewidth}{6*\squareheight}{Assassin}{2}
-\token{2*\squarewidth}{6*\squareheight}{Assassin}{2}
-\token{1*\squarewidth}{6*\squareheight}{Specialist}{3}
-\token{0*\squarewidth}{6*\squareheight}{Specialist}{3}
-\token{9*\squarewidth}{7*\squareheight}{Support}{3}
-\token{8*\squarewidth}{7*\squareheight}{Support}{3}
-\token{7*\squarewidth}{7*\squareheight}{War-Supp}{3}
-\token{6*\squarewidth}{7*\squareheight}{War-Assa}{3}
-\token{5*\squarewidth}{7*\squareheight}{War-Spec}{3}
-\token{4*\squarewidth}{7*\squareheight}{Assa-Spec}{3}
-\token{3*\squarewidth}{7*\squareheight}{Assa-Supp}{3}
-\token{2*\squarewidth}{7*\squareheight}{Spec-Supp}{3}
-\token{1*\squarewidth}{7*\squareheight}{War-Supp}{4}
-\token{0*\squarewidth}{7*\squareheight}{War-Assa}{4}
-\token{9*\squarewidth}{8*\squareheight}{War-Spec}{4}
-\token{8*\squarewidth}{8*\squareheight}{Assa-Spec}{4}
-\token{7*\squarewidth}{8*\squareheight}{Assa-Supp}{4}
-\token{6*\squarewidth}{8*\squareheight}{Spec-Supp}{4}
-\token{5*\squarewidth}{8*\squareheight}{War-Supp}{5}
-\token{4*\squarewidth}{8*\squareheight}{War-Assa}{5}
-\token{3*\squarewidth}{8*\squareheight}{War-Spec}{5}
-\token{2*\squarewidth}{8*\squareheight}{Assa-Spec}{5}
-\token{1*\squarewidth}{8*\squareheight}{Assa-Supp}{5}
-\token{0*\squarewidth}{8*\squareheight}{Spec-Supp}{5}
+\tokenS{9*\squarewidth}{6*\squareheight}{Flying}{1}
+\tokenS{8*\squarewidth}{6*\squareheight}{Ranged}{1}
+\tokenS{7*\squarewidth}{6*\squareheight}{Siege}{1}
+\tokenS{6*\squarewidth}{6*\squareheight}{Melee}{1}
+\tokenS{5*\squarewidth}{6*\squareheight}{Flying}{1}
+\tokenS{4*\squarewidth}{6*\squareheight}{Ranged}{1}
+\tokenS{3*\squarewidth}{6*\squareheight}{Siege}{1}
+\tokenS{2*\squarewidth}{6*\squareheight}{Melee}{1}
+\tokenS{1*\squarewidth}{6*\squareheight}{Flying}{2}
+\tokenS{0*\squarewidth}{6*\squareheight}{Melee}{2}
+\tokenS{9*\squarewidth}{5*\squareheight}{Ranged}{2}
+\tokenS{8*\squarewidth}{5*\squareheight}{Siege}{2}
+\token{0*\squarewidth}{7*\squareheight}{MeleeAndFlying}{3}
+\token{1*\squarewidth}{7*\squareheight}{FlyingAndRanged}{3}
+\token{9*\squarewidth}{7*\squareheight}{SiegeAndFlying}{3}
+\token{8*\squarewidth}{7*\squareheight}{SiegeAndRanged}{3}
+\token{7*\squarewidth}{7*\squareheight}{RangedAndMelee}{3}
+\token{6*\squarewidth}{7*\squareheight}{SiegeAndMelee}{3}
+\token{5*\squarewidth}{7*\squareheight}{FlyingAndMeleeAndRanged}{4}
+\token{4*\squarewidth}{7*\squareheight}{FlyingAndRangedAndSiege}{4}
+\token{3*\squarewidth}{7*\squareheight}{SiegeAndMeleeAndRanged}{4}
+\token{2*\squarewidth}{7*\squareheight}{FlyingAndMeleeAndSiege}{4}
+\tokenNoVP{1*\squarewidth}{8*\squareheight}{Melee}{}
+\tokenNoVP{0*\squarewidth}{8*\squareheight}{Melee}{}
+\tokenNoVP{2*\squarewidth}{8*\squareheight}{Ranged}{}
+\tokenNoVP{3*\squarewidth}{8*\squareheight}{Ranged}{}
+\tokenNoVP{4*\squarewidth}{8*\squareheight}{Siege}{}
+\tokenNoVP{5*\squarewidth}{8*\squareheight}{Siege}{}
+\tokenNoVP{6*\squarewidth}{8*\squareheight}{Flying}{}
+\tokenNoVP{7*\squarewidth}{8*\squareheight}{Vision}{}
+\tokenNoVP{8*\squarewidth}{8*\squareheight}{Push}{}
+\tokenNoVP{9*\squarewidth}{8*\squareheight}{Roam}{}
 
 
 \end{tikzpicture}

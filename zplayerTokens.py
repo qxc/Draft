@@ -28,7 +28,7 @@ def processCards(fileName = "players.csv"):
             fourth = row['icon4']
             if cardType == "":
                 continue
-            if cardType != "Player":
+            if cardType != "General":
                 continue
             if row['Card Status'] == "":
                 continue

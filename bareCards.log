@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.6)  6 MAR 2016 21:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.6)  13 MAY 2017 18:29
 entering extended mode
 **bareCards.tex
-(C:\Users\kriley\Desktop\yDraft\bareCards.tex
+(C:\Users\kriley\Desktop\draftRepo\bareCards.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -30,7 +30,7 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(C:\Users\kriley\Desktop\yDraft\libs.tex
+(C:\Users\kriley\Desktop\draftRepo\libs.tex
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -682,7 +682,114 @@ File: tikzlibraryfadings.code.tex 2009/11/15 v3.0.0 (rcs-revision 1.2)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryfadings
 .code.tex"
 File: pgflibraryfadings.code.tex 2008/02/07 v3.0.0 (rcs-revision 1.3)
-))) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\pifont.sty"
+)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibraryshapes.code.tex"
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibraryshapes.geometric.code.tex"
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibrary
+shapes.geometric.code.tex"
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.0 (rcs-revision 1.1)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibraryshapes.misc.code.tex"
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibrary
+shapes.misc.code.tex"
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.0 (rcs-revision 1.5)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibraryshapes.symbols.code.tex"
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibrary
+shapes.symbols.code.tex"
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.0 (rcs-revision 1.6)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibraryshapes.arrows.code.tex"
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibrary
+shapes.arrows.code.tex"
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.0 (rcs-revision 1.1)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibraryshapes.callouts.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibrary
+shapes.callouts.code.tex"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibraryshapes.multipart.code.tex"
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibrary
+shapes.multipart.code.tex"
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.0 (rcs-revision 1.2)
+\pgfnodepartlowerbox=\box37
+\pgfnodeparttwobox=\box38
+\pgfnodepartthreebox=\box39
+\pgfnodepartfourbox=\box40
+\pgfnodeparttwentybox=\box41
+\pgfnodepartnineteenbox=\box42
+\pgfnodeparteighteenbox=\box43
+\pgfnodepartseventeenbox=\box44
+\pgfnodepartsixteenbox=\box45
+\pgfnodepartfifteenbox=\box46
+\pgfnodepartfourteenbox=\box47
+\pgfnodepartthirteenbox=\box48
+\pgfnodeparttwelvebox=\box49
+\pgfnodepartelevenbox=\box50
+\pgfnodeparttenbox=\box51
+\pgfnodepartninebox=\box52
+\pgfnodeparteightbox=\box53
+\pgfnodepartsevenbox=\box54
+\pgfnodepartsixbox=\box55
+\pgfnodepartfivebox=\box56
+)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibrarysnakes.code.tex"
+File: tikzlibrarysnakes.code.tex 2013/07/15 v3.0.0 (rcs-revision 1.7)
+
+
+Package pgf Warning: Snakes have been superseded by decorations. Please use the
+ decoration libraries instead of the snakes library on input line 14.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibrarydecorations.pathmorphing.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibrarydecorations.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduledecoration
+s.code.tex"
+\pgfdecoratedcompleteddistance=\dimen161
+\pgfdecoratedremainingdistance=\dimen162
+\pgfdecoratedinputsegmentcompleteddistance=\dimen163
+\pgfdecoratedinputsegmentremainingdistance=\dimen164
+\pgf@decorate@distancetomove=\dimen165
+\pgf@decorate@repeatstate=\count113
+\pgfdecorationsegmentamplitude=\dimen166
+\pgfdecorationsegmentlength=\dimen167
+)
+\tikz@lib@dec@box=\box57
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgfli
+brarydecorations.pathmorphing.code.tex"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibrarydecorations.pathreplacing.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgfli
+brarydecorations.pathreplacing.code.tex"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibrarydecorations.shapes.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgfli
+brarydecorations.shapes.code.tex")))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\pifont.sty"
 Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
 LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
 
@@ -730,7 +837,7 @@ Package: mwe 2012/05/15 v0.3 Package to support minimal working examples (MWE)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count113
+\c@lips@count=\count114
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\blindtext\blindtext.sty"
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
@@ -738,28 +845,28 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\xspace.sty"
 Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count114
-\c@Blindtext=\count115
-\c@blind@countparstart=\count116
-\blind@countxx=\count117
-\blindtext@numBlindtext=\count118
-\blind@countyy=\count119
-\c@blindlist=\count120
-\c@blindlistlevel=\count121
-\c@blindlist@level=\count122
-\blind@listitem=\count123
-\c@blind@listcount=\count124
-\c@blind@levelcount=\count125
-\blind@mathformula=\count126
-\blind@Mathformula=\count127
-\c@blind@randomcount=\count128
-\c@blind@randommax=\count129
-\c@blind@pangramcount=\count130
-\c@blind@pangrammax=\count131
+\c@blindtext=\count115
+\c@Blindtext=\count116
+\c@blind@countparstart=\count117
+\blind@countxx=\count118
+\blindtext@numBlindtext=\count119
+\blind@countyy=\count120
+\c@blindlist=\count121
+\c@blindlistlevel=\count122
+\c@blindlist@level=\count123
+\blind@listitem=\count124
+\c@blind@listcount=\count125
+\c@blind@levelcount=\count126
+\blind@mathformula=\count127
+\blind@Mathformula=\count128
+\c@blind@randomcount=\count129
+\c@blind@randommax=\count130
+\c@blind@pangramcount=\count131
+\c@blind@pangrammax=\count132
 ))
-(C:\Users\kriley\Desktop\yDraft\colors.tex)
-(C:\Users\kriley\Desktop\yDraft\tikzcardsBare.tex)
-(C:\Users\kriley\Desktop\yDraft\bareCards.aux)
+(C:\Users\kriley\Desktop\draftRepo\colors.tex)
+(C:\Users\kriley\Desktop\draftRepo\tikzcardsBare.tex)
+(C:\Users\kriley\Desktop\draftRepo\bareCards.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
@@ -829,16 +936,16 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count132
-\scratchdimen=\dimen161
-\scratchbox=\box37
-\nofMPsegments=\count133
-\nofMParguments=\count134
+\scratchcounter=\count133
+\scratchdimen=\dimen168
+\scratchbox=\box58
+\nofMPsegments=\count134
+\nofMParguments=\count135
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count135
-\MPscratchDim=\dimen162
-\MPnumerator=\count136
-\makeMPintoPDFobject=\count137
+\MPscratchCnt=\count136
+\MPscratchDim=\dimen169
+\MPnumerator=\count137
+\makeMPintoPDFobject=\count138
 \everyMPtoPDFconversion=\toks32
 ) ABD: EveryShipout initializing macros
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg"
@@ -1710,31 +1817,32 @@ Package pdftex.def Info: map.png used on input line 492.
 (pdftex.def)             Requested size: 71.12491pt x 71.13188pt.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/kriley/Desktop/y
-Draft/vp.png> <C:/Users/kriley/Desktop/yDraft/Melee.png> <C:/Users/kriley/Deskt
-op/yDraft/melee.png> <C:/Users/kriley/Desktop/yDraft/Vision.png> <C:/Users/kril
-ey/Desktop/yDraft/Push.png> <C:/Users/kriley/Desktop/yDraft/notRoam.png> <C:/Us
-ers/kriley/Desktop/yDraft/ranged.png> <C:/Users/kriley/Desktop/yDraft/Roam.png>
- <C:/Users/kriley/Desktop/yDraft/notPush.png> <C:/Users/kriley/Desktop/yDraft/n
-otVision.png>] [2 <C:/Users/kriley/Desktop/yDraft/objective.png> <C:/Users/kril
-ey/Desktop/yDraft/Ranged.png>]
-[3] [4 <C:/Users/kriley/Desktop/yDraft/team.png>] [5 <C:/Users/kriley/Desktop/y
-Draft/map.png>] [6] (C:\Users\kriley\Desktop\yDraft\bareCards.aux) ) 
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/kriley/Desktop/d
+raftRepo/vp.png> <C:/Users/kriley/Desktop/draftRepo/Melee.png> <C:/Users/kriley
+/Desktop/draftRepo/melee.png> <C:/Users/kriley/Desktop/draftRepo/Vision.png> <C
+:/Users/kriley/Desktop/draftRepo/Push.png> <C:/Users/kriley/Desktop/draftRepo/n
+otRoam.png> <C:/Users/kriley/Desktop/draftRepo/ranged.png> <C:/Users/kriley/Des
+ktop/draftRepo/Roam.png> <C:/Users/kriley/Desktop/draftRepo/notPush.png> <C:/Us
+ers/kriley/Desktop/draftRepo/notVision.png>] [2 <C:/Users/kriley/Desktop/draftR
+epo/objective.png> <C:/Users/kriley/Desktop/draftRepo/Ranged.png>] [3] [4 <C:/U
+sers/kriley/Desktop/draftRepo/team.png>] [5 <C:/Users/kriley/Desktop/draftRepo/
+map.png>] [6]
+(C:\Users\kriley\Desktop\draftRepo\bareCards.aux) ) 
 Here is how much of TeX's memory you used:
- 14759 strings out of 493921
- 288149 string characters out of 3144874
- 10504736 words of memory out of 13000000
- 17705 multiletter control sequences out of 15000+200000
+ 17296 strings out of 493921
+ 367279 string characters out of 3144874
+ 10602409 words of memory out of 13000000
+ 20174 multiletter control sequences out of 15000+200000
  19265 words of font info for 28 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 57i,14n,78p,433b,808s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program
- Files (x86)/MiKTeX 2.9/fonts/enc/dvips/dejavu/dejavumono_t1-type1.enc}{C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/enc/dvips/antt/antt-ec.enc}<C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/dejavu/DejaVuSansMono-Bold.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/dejavu/DejaVuSansMono.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/antt/anttr.pfb>
-Output written on bareCards.pdf (6 pages, 206766 bytes).
+ 57i,14n,78p,433b,810s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKT
+eX 2.9/fonts/enc/dvips/dejavu/dejavumono_t1-type1.enc}{C:/Program Files (x86)/M
+iKTeX 2.9/fonts/enc/dvips/antt/antt-ec.enc}<C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/dejavu/DejaVuSansMono-Bold.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/dejavu/DejaVuSansMono.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/antt/anttr.pfb>
+Output written on bareCards.pdf (6 pages, 212578 bytes).
 PDF statistics:
  91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

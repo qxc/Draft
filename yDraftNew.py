@@ -1,14 +1,13 @@
 import csv
 
-def createCard(name, cardType, cost, text,  image, first, second, third, fourth):
+def createCard(name, cardType, cost, text,  image, first, second, third, fourth, tier):
     code = "\\begin{tikzpicture} \n\cardbackground{" +cardType  +"} \n" #"\\"+ cardType + "} \n"
     code += "\cardtitle{" + name+ "} \n"
     code += "\cardborder{} \n"
+    code += "\cardcost{" + cost + "} \n"
     if text != "":
         code += "\cardcontent{" + text + "} \n"
     code += "\cardimage{" + image + "} \n"
-    code += "\cardprice{" + str(cost) + "} \n"
-    code += "\stance{" + image + "} \n"
     code += "\\first{"
     if first == "":
         code += "notVision}"
@@ -28,20 +27,20 @@ def createCard(name, cardType, cost, text,  image, first, second, third, fourth)
     if fourth == "":
         code += "notVision}"
     else:
-        code +=fourth + "}"
+        code +=fourth + "}\n"
 
-    
+    code += " \cardtier{" + tier + "} \n"
     code += "\end{tikzpicture}\n\hspace{-4mm}\n"
     return code
 
 def createObj(name, cardType, cost, text, image):
     code = "\\begin{tikzpicture} \n\cardbackground{" + cardType + "} \n"
     code += "\cardtitle{" + name+ "} \n"
-    code += "\stance{" + name + "} \n"
     code += "\cardborder{} \n"
     code += "\cardcontent{" + text + "} \n"
     code += "\cardimage{" + image + "} \n"
-    code += "\cardprice{" + str(cost) + "} \n"
+    if cost != "":
+        code += "\cardvp{" + str(cost) + "} \n"
     code += "\end{tikzpicture}\n\hspace{-4mm}\n"
     return code
 
@@ -59,14 +58,15 @@ def processCards(fileName = "cardList.csv"):
             second = row['icon2']
             third = row['icon3']
             fourth = row['icon4']
+            tier  = row['tier']
             if cardType == "":
                 continue
             if row['Card Status'] == "":
                 continue
-            if cardType == "lane" or cardType =="map" or cardType == "team comp":
+            if cardType == "location" or cardType =="arena" or cardType == "team comp":
                 card = createObj(name, cardType, cost, text, image)
             else:
-                card = createCard(name, cardType, cost, text,  image, first, second, third, fourth)
+                card = createCard(name, cardType, cost, text,  image, first, second, third, fourth, tier)
             number = row['supply'] #this line and the next are the ones i changed
             f.write(card*int(number))
     return

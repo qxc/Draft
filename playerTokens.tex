@@ -8,14 +8,14 @@
 \pgfmathsetmacro{\squarewidth}{3} %2.5
 \pgfmathsetmacro{\squareheight}{5} %2.25
 \pgfmathsetmacro{\offset}{.5}
-\newcommand{\vp}{\includegraphics[height = .4cm]{vp} }
-\newcommand{\push}{\includegraphics[height = .4cm]{Push} }
-\newcommand{\roam}{\includegraphics[height = .4cm]{Roam} }
-\newcommand{\vision}{\includegraphics[height = .4cm]{Vision} }
-\newcommand{\specialist}{\includegraphics[height = .4cm]{Specialist} }
-\newcommand{\support}{\includegraphics[height = .4cm]{Support} }
-\newcommand{\assassin}{\includegraphics[height = .4cm]{Assassin} }
-\newcommand{\warrior}{\includegraphics[height = .4cm]{Warrior} }
+\newcommand{\vp}{\includegraphics[height = .5cm]{vp} }
+\newcommand{\push}{\includegraphics[height = .5cm]{Push} }
+\newcommand{\roam}{\includegraphics[height = .5cm]{Roam} }
+\newcommand{\vision}{\includegraphics[height = .5cm]{Vision} }
+\newcommand{\specialist}{\includegraphics[height = .5cm]{Ranged} }
+\newcommand{\support}{\includegraphics[height = .5cm]{Siege} }
+\newcommand{\assassin}{\includegraphics[height = .5cm]{Melee} }
+\newcommand{\warrior}{\includegraphics[height = .5cm]{Flying} }
 
 \newcommand{\token}[7]{
     \draw (#1,#2) rectangle (#1+\squarewidth, #2+\squareheight);
@@ -23,11 +23,9 @@
 		\node at (#1+\squarewidth/4,#2+\squareheight/7) {{\includegraphics[height = .5cm]{#4}}};
 		\node at (#1+\squarewidth/2,#2+\squareheight/7) {{\includegraphics[height = .5cm]{#5}}};
 		\node at (#1+\squarewidth/1.25,#2+\squareheight/7) {{\includegraphics[height = .5cm]{#6}}};
-		%\node at (#1+\squarewidth/2,#2+\squareheight/2) {#7};
 		\node[draw, rectangle, ultra thick, text width=2cm, below] at (#1+\squarewidth/2,#2+\squareheight/1.5) {\textrm{\small#7}};
-		\node at (#1+\squarewidth/2,#2+\squareheight/2.5) {{\includegraphics[height = 1cm]{Grubby}}};
+		\node at (#1+\squarewidth/2,#2+\squareheight/2.5) {{\includegraphics[height = 1cm]{Player}}};
 		
-		%\node at (#1+\squarewidth/8,#2+\squareheight/1.15) {1\includegraphics[height = .35cm]{vp}}
 }
 %input the height of the row
 

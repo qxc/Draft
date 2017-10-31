@@ -1,0 +1,98 @@
+Name of card,cost,type,description,icon1,icon2,icon3,icon4,Card Status,supply,General,Image
+Grassland,,Arena,2 locations. \newline 2\vp per \vision,,,,,,1,,Grass
+City,,Arena,2 locations. \newline 3\vp per \push,,,,,,1,,City
+Frozenscape,,Arena,2 locations. \newline 4\vp per \roam,,,,,,1,,Snowy
+Island,,Arena,3 locations \newline 2\vp per \push,,,,,,1,,Island
+Desert,,Arena,3 locations. \newline 1\vp per \vision,,,,,,1,,Desert
+Forest,,Arena,3 locations. \newline 3\vp per \roam,,,,,,1,,Forest
+Tundra,,Arena,3 locations. Location with fewest points is worth 2x points. \newline 1\vp per \push,,,,,,1,,Tundra
+Mountain,,Arena,3 locations. Location with fewest points is worth 2x points. \newline 2\vp per \roam,,,,,,1,,Mountain
+Field,,Arena,4 locations. \newline 1\vp per \push,,,,,,1,,Field
+Sulfur Mine,,Arena,4 locations. \newline 1\vp per 2\vision,,,,,,1,,Mine
+Volcano,,Arena,4 locations. \newline 2\vp per \roam,,,,,,1,,Volcano
+Swamp,,Arena,3 locations. Location with fewest points is worth 2x points. \newline 1\vp per 2\vision,,,,,,1,,Swamp
+Puffer Gator,,Multi,,vision,push,,,,1,1,MeleeOrFlying
+Winged Fox,,Flying,\bigPush \bigPush \bigPush if \roam on one friendly unit at location.,vision,,,,,1,1,Flying
+Fire Hands,,Ranged,\bigPush \bigRoam \bigRoam if only friendly unit at location.,,,,,,1,1,Ranged
+Lava Golem,,Melee,\bigPush \bigRoam if 2\vision on one friendly unit at location.,push,,,,,1,1,Melee
+Stormcallers,,Siege,\bigRoam \bigRoam if \push on one friendly unit at location.,vision,,,,,1,1,Siege
+Bleeders,,Ranged,\bigVision \bigPush \bigRoam This unit's icons can only gain points via laning.,,,,,,1,1,Ranged
+Spearmen,,Melee,\bigVision \bigVision \bigVision OR \bigRoam. Choose when this unit is played to location.,,,,,,1,1,Melee
+Ballistas,,Multi,,roam,,,,,1,1,RangedOrSiege
+Ice workers,,Multi,,push,push,,,,1,1,SiegeOrMelee
+Dissolvers,,Multi,,vision,vision,vision,,,1,1,FlyingOrRanged
+Walking Whale,,Melee,2\vp,vision,roam,,,,1,0,Melee
+Samurai,,Melee,3\vp,roam,,,,,1,1,Melee
+Sun Tzu,,General,If \specialist,push,,,,,1,,player
+Alexander The Great,,General,If \assassin,push,,,,,1,,player
+Eisenhower,,General,If \support,push,,,,,1,,player
+Napoleon,,General,If \warrior,push,,,,,1,,player
+Geronimo,,General,if \vision and \push,roam,,,,,1,,player
+Ivan The Terrible,,General,if \vision,vision,,,,,1,,player
+Genghis Khan,,General,if \assassin or \specialist,vision,,,,,1,,player
+Scipio Africanus,,General,if \push,roam,,,,,1,,player
+Julius Caesar,,General,if \support or \assassin,vision,,,,,1,,player
+Attila the Hun,,General,if \support or \warrior,vision,,,,,1,,player
+Charlemagne,,General,if \assassin or \warrior,vision,,,,,1,,player
+Saladin,,General,if \specialist or \warrior,vision,,,,,1,,player
+Patton,,General,if \roam,roam,,,,,1,,player
+Hannibal,,General,if \support or \specialist,vision,,,,,1,,player
+El Cid,,General,3\vp if \push,,,,,,1,,player
+Timur,,General,4\vp if \roam,,,,,,1,,player
+Zhuge Liang,,General,2\vp if \vision,,,,,,1,,player
+Hilltop,4,Location,Most \vision,,,,,,1,,Hill
+River,7,Location,Most pairs of \vision and \roam,,,,,,1,,River
+Cave,5,Location,Most \push,,,,,,1,,Cave
+Oasis,6,Location,Most \roam,,,,,,1,,Oasis
+Choke Point,8,Location,Most pairs of \push and \roam,,,,,,1,,Choke
+Fortification,6,Location,Most pairs of \vision and \push,,,,,,1,,Fortification
+Geyser,9,Location,"Most triplets of \vision, \push and \roam",,,,,,1,,Geyser
+Wasteland,3,Location,Most fulfilled generals.,,,,,,1,,Location
+Meteors,,Flying,Double the icons on another unit at the same location.,,,,,,1,1,Flying
+Scorpions,,Siege,Fulfills general conditions automatically.,vision,push,,,,1,1,Siege
+Spies,,Siege,"When played, choose a unit. Opponent must play that unit on their next turn.",push,push,,,,1,1,Siege
+Leviathan,,Flying,"When played, move a played enemy unit to this location.",vision,,,,,1,1,Flying
+Leaping Toads,,Flying,"When played, opponent must play to same location on their next turn.",roam,,,,,1,1,Flying
+Bombers,,Ranged,"When played, you may move a friendly unit in play to a different location.",push,,,,,1,1,Ranged
+Veteran Peacock,,Flying,"When scoring, gain 1 \vp for each friendly fulfilled general in lane",vision,vision,,,,1,1,Flying
+Behemoth,,Melee,"When this unit is chosen, draw a general from the unusued ones.",push,push,,,,1,1,Melee
+Sharks,,Flying,"When you choose this hero, you may replace a unit already chosen for an undrafted one.",vision,push,,,,1,1,Flying
+Catapult,,Siege,You may skip your turn without playing a unit once during the laning phase.,vision,push,,,,1,1,Siege
+Fanged Sky,,Flying,,vision,push,push,,,1,1,Flying
+Basilisks,,Flying,,vision,vision,push,,,1,1,Flying
+Griffins,,Flying,,vision,vision,vision,vision,,1,1,Flying
+Sirens,,Flying,,vision,roam,,,,1,1,Flying
+Giant Bats,,Flying,,push,roam,,,,1,1,Flying
+Void Fog,,Flying,,roam,roam,,,,1,1,Flying
+Knights,,Melee,,vision,push,push,,,1,1,Melee
+Elephants,,Melee,,vision,vision,push,,,1,1,Melee
+Horsemen,,Melee,,vision,vision,vision,vision,,1,1,Melee
+Berserkers,,Melee,,vision,roam,,,,1,1,Melee
+Cultists,,Melee,,push,roam,,,,1,1,Melee
+Living Boulders,,Melee,,push,roam,,,,1,1,Melee
+Shield Throwers,,Ranged,,vision,vision,push,,,1,1,Ranged
+Auramancers,,Ranged,,vision,roam,,,,1,1,Ranged
+Alchemists,,Ranged,,vision,vision,vision,vision,,1,1,Ranged
+Earth Movers,,Ranged,,push,roam,,,,1,1,Ranged
+Archers,,Ranged,,vision,push,push,,,1,1,Ranged
+Purifiers,,Ranged,,vision,roam,,,,1,1,Ranged
+Kraken,,Ranged,,push,roam,roam,,,1,0,Ranged
+Rage Cows,,Siege,,vision,vision,vision,vision,,1,1,Siege
+Armored Moles,,Siege,,vision,vision,push,,,1,1,Siege
+Magnetic Slings,,Siege,,vision,roam,,,,1,1,Siege
+Sleepers,,Siege,,vision,push,push,,,1,1,Siege
+Ground Rotters,,Siege,,push,roam,,,,1,1,Siege
+Crop Killers,,Siege,,roam,roam,,,,1,1,Siege
+Mammoths,,Siege,,vision,push,,,,1,2,Siege
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+George Washington,,General,if \roam,vision,vision,,,x,1,,player
+Bismarck,,General,if \vision and \push,push,,,,x,1,,player
+Cleopatra,,General,if \push,push,,,,x,1,,player

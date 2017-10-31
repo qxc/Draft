@@ -1,86 +1,67 @@
-Name of card,cost,type,description,icon1,icon2,icon3,icon4,Card Status,supply,Image,sync,HP,pos/neg
-Abathur,,Specialist,You may pass your turn without playing a hero once during the laning phase.,vision,push,,,x,1,Abathur,,,
-Anub'arak,,Warrior,\bigPush \bigPush \bigPush if \roam on one friendly hero in lane.,vision,,,,x,1,Anubarak,,,
-Artanis,,Warrior,"When played to lane, opponent must play to same lane on their next turn.",roam,,,,x,1,Artanis,,,
-Arthas,,Warrior,,vision,push,push,,x,1,Arthas,,,
-Auriel,,Support,,vision,vision,push,,x,1,Auriel,,,
-Azmodan,,multi,\warrior or \specialist Choose when this hero is played to lane.,vision,vision,vision,,x,1,Azmodan,,,
-Grubby,,Player,if \assassin or \specialist,vision,,,,x,1,Grubby,,,
-Brightwing,,Support,,vision,roam,,,x,1,Brightwing,,,
-Blumbi,,Player,if \push,vision,push,,,x,1,player,,,
-Chromie,,Assassin,3\vp,vision,vision,,,x,1,Chromie,,,
-Diablo,,Warrior,,vision,vision,push,,x,1,Diablo,,,
-Darkmok,,Player,if \support or \assassin,vision,,,,x,1,player,,,
-HasuObs,,Player,if \support or \warrior,vision,,,,x,1,player,,,
-Falstad,,Assassin,\bigVision \bigVision \bigVision OR \bigRoam. Choose when this hero is played to lane.,,,,,x,1,Falstad,,,
-Nurok,,Player,If \specialist,push,,,,x,1,player,,,
-Gazlowe,,Specialist,,vision,vision,vision,vision,x,1,Gazlowe,,,
-Greymane,,Assassin,,vision,push,push,,x,1,Greymane,,,
-Splendour,,Player,If \assassin,push,,,,x,1,player,,,
-Jaina,,Assassin,,vision,vision,push,,x,1,Jaina,,,
-Johanna,,Warrior,,vision,vision,vision,vision,x,1,Johanna,,,
-Kael'thas,,Assassin,,vision,vision,vision,vision,x,1,Kaelthas,,,
-Kharazim,,multi,\support or \assassin Choose when this hero is played to lane.,push,push,,,x,1,Kharazim,,,
-,6\vp,Lane,Most \vision,,,,,x,1,lane,,,
-,11\vp,Lane,Most \roam. \vision and \push count as minus toward your \roam count.,,,,,x,1,lane,,,
-,8\vp,Lane,Most pairs of \vision and \roam,,,,,x,1,lane,,,
-,6\vp,Lane,Most \push,,,,,x,1,lane,,,
-,6\vp,Lane,Most \roam,,,,,x,1,lane,,,
-,8\vp,Lane,Most pairs of \push and \roam,,,,,x,1,lane,,,
-,8\vp,Lane,Most pairs of \vision and \push,,,,,x,1,lane,,,
-,10\vp,Lane,"Most triplets of \vision, \push and \roam",,,,,x,1,lane,,,
-,7\vp,Lane,Most \vision. \push and \roam count as minus toward your \vision count.,,,,,x,1,lane,,,
-,9\vp,Lane,Most \push. \vision and \roam count as minus toward your \push count.,,,,,x,1,lane,,,
-Leoric,,Warrior,,vision,roam,,,x,1,Leoric,,,
-Li Li,,Support,,vision,vision,vision,vision,x,1,Lili,,,
-Lt. Morales,,Support,,push,roam,,,x,1,Medic,,,
-Malfurion,,Support,\bigVision \bigPush \bigRoam This hero's icons can only gain points via laning.,,,,,x,1,Malfurion,,,
-Battlefield of Eternity,,Map,3 Lanes. \newline 1\vp per \vision,,,,,x,1,Battlefield,,,
-Blackheart's Bay,,Map,3 Lanes \newline 2\vp per \push,,,,,x,1,Blackheart,,,
-Braxis Holdout,,Map,3 Lanes. First lane drawn is worth 2x points. \newline 1\vp per \push,,,,,x,1,Braxis,,,
-Cursed Hollow,,Map,2 Lanes. \newline 2\vp per \vision,,,,,x,1,Cursed,,,
-Dragon Shire,,Map,3 Lanes. \newline 3\vp per \roam,,,,,x,1,Dragon,,,
-Garden of Terror,,Map,2 Lanes. \newline 4\vp per \roam,,,,,x,1,Garden,,,
-Hanamura,,Map,3 Lanes. First lane drawn is worth 2x points. \newline 2\vp per \roam,,,,,x,1,Hanamura,,,
-Haunted Mines,,Map,2 Lanes. \newline 3\vp per \push,,,,,x,1,Haunted,,,
-Medivh,,Specialist,Fulfills player conditions automatically.,vision,push,,,x,1,Medivh,,,
-CauthonLuck,,Player,if \assassin or \warrior,vision,,,,x,1,player,,,
-Fury,,Player,If \support,push,,,,x,1,player,,,
-Murky,,Specialist,,vision,vision,push,,x,1,Murky,,,
-Nazeebo,,Specialist,,vision,roam,,,x,1,Nazeebo,,,
-cattlepillar,,Player,3\vp if \push,,,,,x,1,player,,,
-Jun,,Player,If \warrior,push,,,,x,1,player,,,
-Nova,,Assassin,,vision,roam,,,x,1,Nova,,,
-Rehgar,,Support,"When played to lane, you may swap two friendly heroes in play.",vision,vision,,,x,1,Rehgar,,,
-Rexxar,,Warrior,,push,roam,,,x,1,Rexxar,,,
-Sgt. Hammer,,Specialist,,vision,push,push,,x,1,Hammer,,,
-psalm,,Player,4\vp if \roam,,,,,x,1,player,,,
-Sonya,,Warrior,Double the icons on another hero in the same lane.,,,,,x,1,Sonya,,,
-Sylvanas,,Specialist,,push,roam,,,x,1,Sylvanas,,,
-Equinox,,Player,2\vp if \vision,,,,,x,1,player,,,
-Tassadar,,multi,\specialist or \support Choose when this hero is played to lane.,roam,,,,x,1,Tassadar,,,
-Team 1,,Team,6\vp if 3A \newline  9\vp if 3A 1B \newline  12\vp if 3A 2B,,,,,x,1,team,,,
-Team 10,,Team,5\vp if 2A 1B \newline  7\vp if 2A 1B 1C \newline  9\vp if 2A 1B 1C 1D,,,,,x,1,team,,,
-Team 11,,Team,4\vp if 1A 1B 1C \newline  7\vp if 2A 1B 1C \newline  9\vp if 2A 1B 1C 1D,,,,,x,1,team,,,
-Team 12,,Team,4\vp if 1A 1B 1C \newline  6\vp if 1A 1B 1C 1D \newline  9\vp if 2A 1B 1C 1D,,,,,x,1,team,,,
-Team 2,,Team,5\vp if 2A 1B \newline  9\vp if 3A 1B \newline  12\vp if 3A 2B,,,,,x,1,team,,,
-Team 3,,Team,5\vp if 2A 1B \newline  8\vp if 2A 2B \newline  12\vp if 3A 2B,,,,,x,1,team,,,
-Team 4,,Team,6\vp if 3A \newline  9\vp if 3A 1B \newline  11\vp if 3A 1B 1C,,,,,x,1,team,,,
-Team 5,,Team,5\vp if 2A 1B \newline  7\vp if 2A 1B 1C \newline  11\vp if 3A 1B 1C,,,,,x,1,team,,,
-Team 6,,Team,4\vp if 1A 1B 1C \newline  7\vp if 2A 1B 1C \newline  11\vp if 3A 1B 1C,,,,,x,1,team,,,
-Team 7,,Team,5\vp if 2A 1B \newline  8\vp if 2A 2B \newline  10\vp if 2A 2B 1C,,,,,x,1,team,,,
-Team 8,,Team,5\vp if 2A 1B \newline  7\vp if 2A 1B 1C \newline  10\vp if 2A 2B 1C,,,,,x,1,team,,,
-Team 9,,Team,4\vp if 1A 1B 1C \newline  7\vp if 2A 1B 1C \newline  10\vp if 2A 2B 1C,,,,,x,1,team,,,
-Fan,,Player,if \vision and \push,push,push,,,x,1,player,,,
-MichaelUdall,,Player,if \specialist or \warrior,vision,,,,x,1,player,,,
-Tyrande,,Support,,vision,push,push,,x,1,Tyrande,,,
-Uther,,Support,\bigPush \bigRoam \bigRoam if only friendly hero in lane.,,,,,x,1,Uther,,,
-Valla,,Assassin,,push,roam,,,x,1,Valla,,,
-Varian,,multi,\assassin or \warrior Choose when this hero is played to lane.,vision,push,,,x,1,Varian,,,
-akaface,,Player,if \roam,vision,roam,,,x,1,player,,,
-Khroen,,Player,if \support or \specialist,vision,,,,x,1,player,,,
-Xul,,Specialist,"When played to lane, choose a hero. Opponent must play that hero on their next turn.",push,push,,,x,1,Xul,,,
-Zagara,,Specialist,\bigRoam \bigRoam if \push on one friendly hero in lane.,,,,,x,1,Zagara,,,
-Prismaticism,,Player,if \vision,push,,,,x,1,player,,,
-Zeratul,,Assassin,\bigPush \bigRoam if 2\vision on one friendly hero in lane.,push,,,,x,1,Zeratul,,,
-Sustain,,Team,4\vp if \warrior \warrior \support \newline 7\vp if \warrior \warrior \support \support \newline 11\vp if \warrior \warrior \support \support \assassin,,,,,x,1,team,,,
+Name of card,cost,tier,type,description,icon1,icon2,icon3,icon4,Card Status,supply,General,Image
+Alchemists,,1,Command,When an allied \unit at \thisBattle \enters +2 \strength.,,,,,x,1,,Command
+Archers,,1,Command,When an enemy \unit at \thisBattle \enters with \vision -4 \strength,,,,,x,1,,Command
+Armored Moles,,1,Command,"When you play a \sorcery at \thisBattle, play it again.",,,,,x,1,,Command
+Atomic Bear,,1,Command,"At end of game, double the strength of the weakest allied \unit at \thisBattle.",,,,,x,1,,Command
+Auramancers,,1,Command,"At end of game, destroy the weakest enemy \unit at \thisBattle.",,,,,x,1,,Command
+Basilisks,,1,Command,"At end of game, destroy the strongest \unit at \thisBattle.",,,,,x,1,,Command
+Berserkers,,1,Command,"At end of game, +1 \vp for each allied \unit with 1+ \roam.",,,,,x,1,,Command
+Catapult,,1,Command,The player with the most \vision wins \thisBattle.,,,,,x,1,,Command
+Cultists,,1,Command,"When ally without \vision \enters \thisBattle, it gains 1 \vision.",,,,,x,1,,Command
+Demon Summoners,,1,Command,"When enemy \enters \thisBattle with 1+ \roam, move it to \adjBattle.",,,,,x,1,,Command
+Earth Movers,,1,Command,"When ally with \vision \enters \thisBattle, +4 \strength.",,,,,x,1,,Command
+Elephants,,1,Command,"When ally with \push \enters \thisBattle, +6 \strength.",,,,,x,1,,Command
+Fanged Sky,,1,Command,"When ally with \roam \enters \thisBattle, +8 \strength.",,,,,x,1,,Command
+Giant Bats,,1,Command,"At the end of the game, gain 1 \vp for each \vision at \thisBattle.",,,,,x,1,,Command
+General1,,1,Command,"At the end of the game, if you win \thisBattle, gain 6 \vp.",,,,,x,1,,Command
+General2,,1,Command,\thisBattle is worth 2 less \vp for each \push at \thisBattle.,,,,,x,1,,Command
+General3,,1,Command,"When an allied \unit at \thisBattle \enters and has the lowest strength at,  +6 \strength.",,,,,x,1,,Command
+General4,,1,Command,"At end of game, double the strength of each allied \unit at \thisBattle with +2 \vision.",,,,,x,1,,Command
+General5,,1,Command,All allied \unit at \thisBattle have +2 \vision.,,,,,x,1,,Command
+General6,,1,Command,Enemy Sorceries cannot be played at \thisBattle.,,,,,x,1,,Command
+Leech Launcher,,1,Sorcery,Move an allied unit at \thisBattle with 1+ \roam to \adjBattle and +4 \strength.,,,,,x,1,,Sorcery
+Magnetic Slings,,1,Sorcery,An allied \unit gains 2 \roam and +4 \strength at \thisBattle.,,,,,x,1,,Sorcery
+Spies,,1,Sorcery,Allied unit -3 \strength. A different allied \unit at this \region +10 \strength.,,,,,x,1,,Sorcery
+Titan,,1,Sorcery,An allied \unit at \region gains 4 \vision and +2 \strength.,,,,,x,1,,Sorcery
+Name3,4,1,Unit,Move an allied unit at \thisBattle with 1+ \roam to \adjBattle.,push,push,,,x,1,,Unit
+Name8,7,1,Unit,,vision,vision,vision,,x,1,,Unit
+Name9,7,1,Unit,,vision,push,,,x,1,,Unit
+Name10,5,1,Unit,,push,roam,,,x,1,,Unit
+Name11,9,1,Unit,,vision,,,,x,1,,Unit
+Name12,6,1,Unit,,push,push,,,x,1,,Unit
+Name13,7,1,Unit,,vision,push,,,x,1,,Unit
+Name14,4,1,Unit,,roam,roam,,,x,1,,Unit
+Name15,10,1,Unit,,,,,,x,1,,Unit
+Name22,5,1,Unit,,push,roam,,,x,1,,Unit
+Name23,7,1,Unit,,roam,,,,x,1,,Unit
+Name24,4,1,Unit,,vision,push,roam,,x,1,,Unit
+Name25,8,1,Unit,,vision,vision,,,x,1,,Unit
+Glory Bearers,,2,Sorcery,All allied \unit at \thisBattle with 1+ \roam and 1+ \push +8 \strength.,,,,,x,1,,Sorcery
+Sirens,,2,Sorcery,All allied \unit at \thisBattle with 2+ \vision +4 \strength,,,,,x,1,,Sorcery
+Griffins,,2,Sorcery,Allied \unit +7 \strength if allied units have 2+ \push at \thisBattle.,,,,,x,1,,Sorcery
+Knights,,2,Sorcery,Allied \unit +2 \strength for each \vision allied units have at \thisBattle.,,,,,x,1,,Sorcery
+Light Wraiths,,2,Sorcery,Move an allied unit at \adjBattle \thisBattle. Each enemy at \thisBattle -1 \strength.,,,,,x,1,,Sorcery
+Living Boulders,,2,Sorcery,Gain 1 \vp for each \vision on allies at \thisBattle.,,,,,x,1,,Sorcery
+Rage Cows,,2,Sorcery,Gain 5 \vp if 2+ \roam at \thisBattle.,,,,,x,1,,Sorcery
+Samurai,,2,Sorcery,Each enemy \unit loses 1 \vision at \thisBattle.,,,,,x,1,,Sorcery
+Sharks,,2,Sorcery,All enemy units at this \region -2 \strength.,,,,,x,1,,Sorcery
+Spearmen,,2,Sorcery,All friendly units with 2+ \vision at \adjBattle +6 \strength.,,,,,x,1,,Sorcery
+Stormcallers,,2,Sorcery, +10 \strength if allied units have 3+ \roam at \thisBattle.,,,,,x,1,,Sorcery
+Void Fog,,2,Sorcery,An allied unit +16 \strength if allied units have 3+ \roam at \thisBattle.,,,,,x,1,,Sorcery
+Winged Fox,,2,Sorcery,All friendly units with 1+ \roam at \adjBattle +5 \strength.,,,,,x,1,,Sorcery
+Name1,3,2,Unit, +5 \strength if allied units have 2+ \push at \thisBattle.,vision,roam,,,x,1,,Unit
+Name2,11,2,Unit, -2 \strength for each \vision allied units have at \thisBattle.,vision,push,,,x,1,,Unit
+Name4,7,2,Unit,Move an allied unit at \adjBattle with 1+ \vision to \thisBattle.,,,,,x,1,,Unit
+Name5,2,2,Unit,Gain 1 \vp for each \push on allies at \thisBattle.,push,roam,,,x,1,,Unit
+Name6,3,2,Unit,Gain 1 \roam for each \vision on allied units at \adjBattle.,roam,,,,x,1,,Unit
+Name7,5,2,Unit,Gain 3 \vp if 2+ \roam at \thisBattle.,push,,,,x,1,,Unit
+Name16,8,2,Unit,Gain 1 \vision for each enemy unit at this \region.,,,,,x,1,,Unit
+Name17,6,2,Unit,All enemy units at this \region -1 \strength.,push,,,,x,1,,Unit
+Name18,4,2,Unit,All friendly units with 1+ \vision at \adjBattle +3 \strength.,vision,vision,,,x,1,,Unit
+Name19,8,2,Unit,Allied unit -5 \strength. This unit +6 \strength.,,,,,x,1,,Unit
+Name20,1,2,Unit, +10 \strength if allied units have 3+ \roam at \thisBattle.,vision,roam,,,x,1,,Unit
+Name21,2,2,Unit,Gain 2 \vision for each \push on an allied unit at \region.,vision,roam,,,x,1,,Unit
+Location1,2,,Battle,,,,,,x,1,,Battle
+Location2,5,,Battle,,,,,,x,1,,Battle
+Location3,6,,Battle,,,,,,x,1,,Battle
+Location4,8,,Battle,,,,,,x,1,,Battle
