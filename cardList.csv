@@ -1,67 +1,41 @@
 Name of card,cost,tier,type,description,icon1,icon2,icon3,icon4,Card Status,supply,General,Image
-Alchemists,,1,Command,When an allied \unit at \thisBattle \enters +2 \strength.,,,,,x,1,,Command
-Archers,,1,Command,When an enemy \unit at \thisBattle \enters with \vision -4 \strength,,,,,x,1,,Command
-Armored Moles,,1,Command,"When you play a \sorcery at \thisBattle, play it again.",,,,,x,1,,Command
-Atomic Bear,,1,Command,"At end of game, double the strength of the weakest allied \unit at \thisBattle.",,,,,x,1,,Command
-Auramancers,,1,Command,"At end of game, destroy the weakest enemy \unit at \thisBattle.",,,,,x,1,,Command
-Basilisks,,1,Command,"At end of game, destroy the strongest \unit at \thisBattle.",,,,,x,1,,Command
-Berserkers,,1,Command,"At end of game, +1 \vp for each allied \unit with 1+ \roam.",,,,,x,1,,Command
-Catapult,,1,Command,The player with the most \vision wins \thisBattle.,,,,,x,1,,Command
-Cultists,,1,Command,"When ally without \vision \enters \thisBattle, it gains 1 \vision.",,,,,x,1,,Command
-Demon Summoners,,1,Command,"When enemy \enters \thisBattle with 1+ \roam, move it to \adjBattle.",,,,,x,1,,Command
-Earth Movers,,1,Command,"When ally with \vision \enters \thisBattle, +4 \strength.",,,,,x,1,,Command
-Elephants,,1,Command,"When ally with \push \enters \thisBattle, +6 \strength.",,,,,x,1,,Command
-Fanged Sky,,1,Command,"When ally with \roam \enters \thisBattle, +8 \strength.",,,,,x,1,,Command
-Giant Bats,,1,Command,"At the end of the game, gain 1 \vp for each \vision at \thisBattle.",,,,,x,1,,Command
-General1,,1,Command,"At the end of the game, if you win \thisBattle, gain 6 \vp.",,,,,x,1,,Command
-General2,,1,Command,\thisBattle is worth 2 less \vp for each \push at \thisBattle.,,,,,x,1,,Command
-General3,,1,Command,"When an allied \unit at \thisBattle \enters and has the lowest strength at,  +6 \strength.",,,,,x,1,,Command
-General4,,1,Command,"At end of game, double the strength of each allied \unit at \thisBattle with +2 \vision.",,,,,x,1,,Command
-General5,,1,Command,All allied \unit at \thisBattle have +2 \vision.,,,,,x,1,,Command
-General6,,1,Command,Enemy Sorceries cannot be played at \thisBattle.,,,,,x,1,,Command
-Leech Launcher,,1,Sorcery,Move an allied unit at \thisBattle with 1+ \roam to \adjBattle and +4 \strength.,,,,,x,1,,Sorcery
-Magnetic Slings,,1,Sorcery,An allied \unit gains 2 \roam and +4 \strength at \thisBattle.,,,,,x,1,,Sorcery
-Spies,,1,Sorcery,Allied unit -3 \strength. A different allied \unit at this \region +10 \strength.,,,,,x,1,,Sorcery
-Titan,,1,Sorcery,An allied \unit at \region gains 4 \vision and +2 \strength.,,,,,x,1,,Sorcery
-Name3,4,1,Unit,Move an allied unit at \thisBattle with 1+ \roam to \adjBattle.,push,push,,,x,1,,Unit
-Name8,7,1,Unit,,vision,vision,vision,,x,1,,Unit
-Name9,7,1,Unit,,vision,push,,,x,1,,Unit
-Name10,5,1,Unit,,push,roam,,,x,1,,Unit
-Name11,9,1,Unit,,vision,,,,x,1,,Unit
-Name12,6,1,Unit,,push,push,,,x,1,,Unit
-Name13,7,1,Unit,,vision,push,,,x,1,,Unit
-Name14,4,1,Unit,,roam,roam,,,x,1,,Unit
-Name15,10,1,Unit,,,,,,x,1,,Unit
-Name22,5,1,Unit,,push,roam,,,x,1,,Unit
-Name23,7,1,Unit,,roam,,,,x,1,,Unit
-Name24,4,1,Unit,,vision,push,roam,,x,1,,Unit
-Name25,8,1,Unit,,vision,vision,,,x,1,,Unit
-Glory Bearers,,2,Sorcery,All allied \unit at \thisBattle with 1+ \roam and 1+ \push +8 \strength.,,,,,x,1,,Sorcery
-Sirens,,2,Sorcery,All allied \unit at \thisBattle with 2+ \vision +4 \strength,,,,,x,1,,Sorcery
-Griffins,,2,Sorcery,Allied \unit +7 \strength if allied units have 2+ \push at \thisBattle.,,,,,x,1,,Sorcery
-Knights,,2,Sorcery,Allied \unit +2 \strength for each \vision allied units have at \thisBattle.,,,,,x,1,,Sorcery
-Light Wraiths,,2,Sorcery,Move an allied unit at \adjBattle \thisBattle. Each enemy at \thisBattle -1 \strength.,,,,,x,1,,Sorcery
-Living Boulders,,2,Sorcery,Gain 1 \vp for each \vision on allies at \thisBattle.,,,,,x,1,,Sorcery
-Rage Cows,,2,Sorcery,Gain 5 \vp if 2+ \roam at \thisBattle.,,,,,x,1,,Sorcery
-Samurai,,2,Sorcery,Each enemy \unit loses 1 \vision at \thisBattle.,,,,,x,1,,Sorcery
-Sharks,,2,Sorcery,All enemy units at this \region -2 \strength.,,,,,x,1,,Sorcery
-Spearmen,,2,Sorcery,All friendly units with 2+ \vision at \adjBattle +6 \strength.,,,,,x,1,,Sorcery
-Stormcallers,,2,Sorcery, +10 \strength if allied units have 3+ \roam at \thisBattle.,,,,,x,1,,Sorcery
-Void Fog,,2,Sorcery,An allied unit +16 \strength if allied units have 3+ \roam at \thisBattle.,,,,,x,1,,Sorcery
-Winged Fox,,2,Sorcery,All friendly units with 1+ \roam at \adjBattle +5 \strength.,,,,,x,1,,Sorcery
-Name1,3,2,Unit, +5 \strength if allied units have 2+ \push at \thisBattle.,vision,roam,,,x,1,,Unit
-Name2,11,2,Unit, -2 \strength for each \vision allied units have at \thisBattle.,vision,push,,,x,1,,Unit
-Name4,7,2,Unit,Move an allied unit at \adjBattle with 1+ \vision to \thisBattle.,,,,,x,1,,Unit
-Name5,2,2,Unit,Gain 1 \vp for each \push on allies at \thisBattle.,push,roam,,,x,1,,Unit
-Name6,3,2,Unit,Gain 1 \roam for each \vision on allied units at \adjBattle.,roam,,,,x,1,,Unit
-Name7,5,2,Unit,Gain 3 \vp if 2+ \roam at \thisBattle.,push,,,,x,1,,Unit
-Name16,8,2,Unit,Gain 1 \vision for each enemy unit at this \region.,,,,,x,1,,Unit
-Name17,6,2,Unit,All enemy units at this \region -1 \strength.,push,,,,x,1,,Unit
-Name18,4,2,Unit,All friendly units with 1+ \vision at \adjBattle +3 \strength.,vision,vision,,,x,1,,Unit
-Name19,8,2,Unit,Allied unit -5 \strength. This unit +6 \strength.,,,,,x,1,,Unit
-Name20,1,2,Unit, +10 \strength if allied units have 3+ \roam at \thisBattle.,vision,roam,,,x,1,,Unit
-Name21,2,2,Unit,Gain 2 \vision for each \push on an allied unit at \region.,vision,roam,,,x,1,,Unit
-Location1,2,,Battle,,,,,,x,1,,Battle
-Location2,5,,Battle,,,,,,x,1,,Battle
-Location3,6,,Battle,,,,,,x,1,,Battle
-Location4,8,,Battle,,,,,,x,1,,Battle
+Atomic Bear,,1,command,"When allied \unit \enters \thisBattle, +4 \strength per \vision.",,,,,x,1,,command
+Armored Moles,,1,command,"When allied \unit \enters \thisBattle, +6 \strength per \push.",,,,,x,1,,command
+Demon Summoners,,1,command,"When allied \unit \enters \thisBattle, +8 \strength per \roam.",,,,,x,1,,command
+Living Boulders,,1,command,"At end of game, destroy the \unit with the most \strength at \thisBattle.",,,,,x,1,,command
+Rage Cows,,1,command,"For each \vision on allied \unit at \thisBattle, +1 \vp if you win \thisBattle.",,,,,x,1,,command
+Spearmen,,1,command,"When allied \unit \enters \thisBattle, +1 \vision, \push and \roam.",,,,,x,1,,command
+Samurai,,1,sorcery,Move an allied \unit at \thisBattle to \adjBattle. +4 \strength and +2 \roam.,,,,,x,1,,sorcery
+Titan,,1,sorcery,An allied \unit +3 \push and +6 \strength.,,,,,x,1,,sorcery
+Cultists,6,1,unit,,vision,vision,vision,vision,x,1,,unit
+Void Fog,4,1,unit,"If more \vision at \thisBattle than opponent, +2 \roam.",vision,push,,,x,1,,unit
+Sharks,6,1,unit,"If \adjBattle has no allied \unit, +2 \push.",vision,roam,,,x,1,,unit
+Glory Bearers,6,1,unit,allied \unit at \adjBattle +2 \vision.,vision,vision,,,x,1,,unit
+Berserkers,6,1,unit,Each other allied \unit at \thisBattle +1 \vision.,vision,vision,vision,,x,1,,unit
+Basilisks,4,1,unit,,vision,push,roam,,x,1,,unit
+Archers,5,1,unit,,vision,push,push,,x,1,,unit
+Shadows,7,1,unit, +1 \roam if only \unit at \thisBattle.,vision,vision,,,x,1,,unit
+Fanged Sky,8,1,unit, +2 \push if this \unit has most \strength at \thisBattle.,push,push,,,x,1,,unit
+Spies,6,1,unit,,push,roam,,,x,1,,unit
+Light Wraiths,6,1,unit, +2 \push if enemy \unit at \thisBattle has more \strength.,push,,,,x,1,,unit
+Sirens,4,1,unit,,roam,roam,,,x,1,,unit
+Alchemists,,2,command,When allied \unit enters \thisBattle +7 \strength.,,,,,x,1,,command
+Earth Movers,,2,command,\thisBattle is worth +4 \vp.,,,,,x,1,,command
+Giant Bats,,2,command,"When you play a \sorcery at \thisBattle, play it again.",,,,,x,1,,command
+Winged Fox,,2,command,"When allied \unit \enters \thisBattle, double its \strength and one of its traits.",,,,,x,1,,command
+Griffins,1,2,unit, +5 \strength for each \push on allied \unit at \thisBattle.,vision,,,,x,1,,unit
+Diving Toads,1,2,unit, +7 \strength for each \roam on allied \unit at \thisBattle.,push,,,,x,1,,unit
+Meteors,1,2,unit, +3 \strength for each \vision on allied \unit at \thisBattle.,roam,,,,x,1,,unit
+Elephants,1,2,unit, +13 \strength if more \vision than opponent at \thisBattle.,vision,vision,,,x,1,,unit
+Knights,1,2,unit, +10 \strength if more \push than opponent at \thisBattle.,push,push,,,x,1,,unit
+Lava Golem,1,2,unit, +7 \strength if more \roam than opponent at \thisBattle.,roam,roam,,,x,1,,unit
+Walking Whale,1,2,unit,An enemy \unit at \thisBattle lose 2 \strength for each trait they have.,,,,,x,1,,unit
+Ballistas,1,2,unit,Each enemy \unit at \thisBattle loses 1 \strength for each trait they have.,,,,,x,1,,unit
+Dissolvers,,2,sorcery,"Each allied \unit at \thisBattle with 1+ \vision, \push and \roam +12 \strength.",,,,,x,1,,sorcery
+Ice Makers,,2,sorcery,Each allied \unit at \thisBattle with 2+ \vision +6 \strength,,,,,x,1,,sorcery
+Puffer Gator,,2,sorcery,"If 5+ \push at \thisBattle, +18 \strength to an allied \unit.",,,,,x,1,,sorcery
+Auramancers,,2,sorcery,"Allied \unit with 3+ \roam, +15 \strength.",,,,,x,1,,sorcery
+Leech Launcher,,2,sorcery,"Each allied unit with 1+ \roam, +5 \strength.",,,,,x,1,,sorcery
+Bombers,,2,sorcery,Gain 1 \vp for each \roam at \thisBattle.,,,,,x,1,,sorcery
+Shield Throwers,,2,sorcery,Move an enemy unit with 2+ \roam at \thisBattle to \adjBattle. -10 \strength.,,,,,x,1,,sorcery
+Catapult,,2,sorcery,Each enemy \unit at \thisBattle loses all \vision. +2 \strength to allied \unit for each \vision lost this way.,,,,,x,1,,sorcery

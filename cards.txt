@@ -1,22 +1,9 @@
 \begin{tikzpicture} 
 \cardbackground{command} 
-\cardtitle{Alchemists} 
+\cardtitle{Atomic Bear} 
 \cardborder{} 
 \cardcost{} 
-\cardcontent{When an allied \unit at \thisBattle \enters +2 \strength.} 
-\cardimage{command} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{1} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{command} 
-\cardtitle{Archers} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{When an enemy \unit at \thisBattle \enters with \vision -4 \strength} 
+\cardcontent{When allied \unit \enters \thisBattle, +4 \strength per \vision.} 
 \cardimage{command} 
 \first{notVision}
 \second{notVision}
@@ -29,85 +16,7 @@
 \cardtitle{Armored Moles} 
 \cardborder{} 
 \cardcost{} 
-\cardcontent{When you play a \sorcery at \thisBattle, play it again.} 
-\cardimage{command} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{1} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{command} 
-\cardtitle{Atomic Bear} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{At end of game, double the strength of the weakest allied \unit at \thisBattle.} 
-\cardimage{command} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{1} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{command} 
-\cardtitle{Auramancers} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{At end of game, destroy the weakest enemy \unit at \thisBattle.} 
-\cardimage{command} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{1} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{command} 
-\cardtitle{Basilisks} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{At end of game, destroy the strongest \unit at \thisBattle.} 
-\cardimage{command} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{1} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{command} 
-\cardtitle{Berserkers} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{At end of game, +1 \vp for each allied \unit with 1+ \roam.} 
-\cardimage{command} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{1} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{command} 
-\cardtitle{Catapult} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{The player with the most \vision wins \thisBattle.} 
-\cardimage{command} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{1} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{command} 
-\cardtitle{Cultists} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{When ally without \vision \enters \thisBattle, it gains 1 \vision.} 
+\cardcontent{When allied \unit \enters \thisBattle, +6 \strength per \push.} 
 \cardimage{command} 
 \first{notVision}
 \second{notVision}
@@ -120,7 +29,7 @@
 \cardtitle{Demon Summoners} 
 \cardborder{} 
 \cardcost{} 
-\cardcontent{When enemy \enters \thisBattle with 1+ \roam, move it to \adjBattle.} 
+\cardcontent{When allied \unit \enters \thisBattle, +8 \strength per \roam.} 
 \cardimage{command} 
 \first{notVision}
 \second{notVision}
@@ -130,10 +39,10 @@
 \hspace{-4mm}
 \begin{tikzpicture} 
 \cardbackground{command} 
-\cardtitle{Earth Movers} 
+\cardtitle{Living Boulders} 
 \cardborder{} 
 \cardcost{} 
-\cardcontent{When ally with \vision \enters \thisBattle, +4 \strength.} 
+\cardcontent{At end of game, destroy the \unit with the most \strength at \thisBattle.} 
 \cardimage{command} 
 \first{notVision}
 \second{notVision}
@@ -143,10 +52,10 @@
 \hspace{-4mm}
 \begin{tikzpicture} 
 \cardbackground{command} 
-\cardtitle{Elephants} 
+\cardtitle{Rage Cows} 
 \cardborder{} 
 \cardcost{} 
-\cardcontent{When ally with \push \enters \thisBattle, +6 \strength.} 
+\cardcontent{For each \vision on allied \unit at \thisBattle, +1 \vp if you win \thisBattle.} 
 \cardimage{command} 
 \first{notVision}
 \second{notVision}
@@ -156,101 +65,10 @@
 \hspace{-4mm}
 \begin{tikzpicture} 
 \cardbackground{command} 
-\cardtitle{Fanged Sky} 
+\cardtitle{Spearmen} 
 \cardborder{} 
 \cardcost{} 
-\cardcontent{When ally with \roam \enters \thisBattle, +8 \strength.} 
-\cardimage{command} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{1} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{command} 
-\cardtitle{Giant Bats} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{At the end of the game, gain 1 \vp for each \vision at \thisBattle.} 
-\cardimage{command} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{1} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{command} 
-\cardtitle{General1} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{At the end of the game, if you win \thisBattle, gain 6 \vp.} 
-\cardimage{command} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{1} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{command} 
-\cardtitle{General2} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{\thisBattle is worth 2 less \vp for each \push at \thisBattle.} 
-\cardimage{command} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{1} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{command} 
-\cardtitle{General3} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{When an allied \unit at \thisBattle \enters and has the lowest strength at,  +6 \strength.} 
-\cardimage{command} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{1} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{command} 
-\cardtitle{General4} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{At end of game, double the strength of each allied \unit at \thisBattle with +2 \vision.} 
-\cardimage{command} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{1} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{command} 
-\cardtitle{General5} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{All allied \unit at \thisBattle have +2 \vision.} 
-\cardimage{command} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{1} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{command} 
-\cardtitle{General6} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{Enemy Sorceries cannot be played at \thisBattle.} 
+\cardcontent{When allied \unit \enters \thisBattle, +1 \vision, \push and \roam.} 
 \cardimage{command} 
 \first{notVision}
 \second{notVision}
@@ -260,36 +78,10 @@
 \hspace{-4mm}
 \begin{tikzpicture} 
 \cardbackground{sorcery} 
-\cardtitle{Leech Launcher} 
+\cardtitle{Samurai} 
 \cardborder{} 
 \cardcost{} 
-\cardcontent{Move an allied unit at \thisBattle with 1+ \roam to \adjBattle and +4 \strength.} 
-\cardimage{sorcery} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{1} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{sorcery} 
-\cardtitle{Magnetic Slings} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{An allied \unit gains 2 \roam and +4 \strength at \thisBattle.} 
-\cardimage{sorcery} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{1} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{sorcery} 
-\cardtitle{Spies} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{Allied unit -3 \strength. A different allied \unit at this \region +10 \strength.} 
+\cardcontent{Move an allied \unit at \thisBattle to \adjBattle. +4 \strength and +2 \roam.} 
 \cardimage{sorcery} 
 \first{notVision}
 \second{notVision}
@@ -302,7 +94,7 @@
 \cardtitle{Titan} 
 \cardborder{} 
 \cardcost{} 
-\cardcontent{An allied \unit at \region gains 4 \vision and +2 \strength.} 
+\cardcontent{An allied \unit +3 \push and +6 \strength.} 
 \cardimage{sorcery} 
 \first{notVision}
 \second{notVision}
@@ -312,12 +104,25 @@
 \hspace{-4mm}
 \begin{tikzpicture} 
 \cardbackground{unit} 
-\cardtitle{Name3} 
+\cardtitle{Cultists} 
+\cardborder{} 
+\cardcost{6} 
+\cardimage{unit} 
+\first{vision}
+\second{vision}
+\third{vision}
+\fourth{vision}
+ \cardtier{1} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{unit} 
+\cardtitle{Void Fog} 
 \cardborder{} 
 \cardcost{4} 
-\cardcontent{Move an allied unit at \thisBattle with 1+ \roam to \adjBattle.} 
+\cardcontent{If more \vision at \thisBattle than opponent, +2 \roam.} 
 \cardimage{unit} 
-\first{push}
+\first{vision}
 \second{push}
 \third{notVision}
 \fourth{notVision} \cardtier{1} 
@@ -325,9 +130,36 @@
 \hspace{-4mm}
 \begin{tikzpicture} 
 \cardbackground{unit} 
-\cardtitle{Name8} 
+\cardtitle{Sharks} 
 \cardborder{} 
-\cardcost{7} 
+\cardcost{6} 
+\cardcontent{If \adjBattle has no allied \unit, +2 \push.} 
+\cardimage{unit} 
+\first{vision}
+\second{roam}
+\third{notVision}
+\fourth{notVision} \cardtier{1} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{unit} 
+\cardtitle{Glory Bearers} 
+\cardborder{} 
+\cardcost{6} 
+\cardcontent{allied \unit at \adjBattle +2 \vision.} 
+\cardimage{unit} 
+\first{vision}
+\second{vision}
+\third{notVision}
+\fourth{notVision} \cardtier{1} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{unit} 
+\cardtitle{Berserkers} 
+\cardborder{} 
+\cardcost{6} 
+\cardcontent{Each other allied \unit at \thisBattle +1 \vision.} 
 \cardimage{unit} 
 \first{vision}
 \second{vision}
@@ -337,115 +169,7 @@
 \hspace{-4mm}
 \begin{tikzpicture} 
 \cardbackground{unit} 
-\cardtitle{Name9} 
-\cardborder{} 
-\cardcost{7} 
-\cardimage{unit} 
-\first{vision}
-\second{push}
-\third{notVision}
-\fourth{notVision} \cardtier{1} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{unit} 
-\cardtitle{Name10} 
-\cardborder{} 
-\cardcost{5} 
-\cardimage{unit} 
-\first{push}
-\second{roam}
-\third{notVision}
-\fourth{notVision} \cardtier{1} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{unit} 
-\cardtitle{Name11} 
-\cardborder{} 
-\cardcost{9} 
-\cardimage{unit} 
-\first{vision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{1} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{unit} 
-\cardtitle{Name12} 
-\cardborder{} 
-\cardcost{6} 
-\cardimage{unit} 
-\first{push}
-\second{push}
-\third{notVision}
-\fourth{notVision} \cardtier{1} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{unit} 
-\cardtitle{Name13} 
-\cardborder{} 
-\cardcost{7} 
-\cardimage{unit} 
-\first{vision}
-\second{push}
-\third{notVision}
-\fourth{notVision} \cardtier{1} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{unit} 
-\cardtitle{Name14} 
-\cardborder{} 
-\cardcost{4} 
-\cardimage{unit} 
-\first{roam}
-\second{roam}
-\third{notVision}
-\fourth{notVision} \cardtier{1} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{unit} 
-\cardtitle{Name15} 
-\cardborder{} 
-\cardcost{10} 
-\cardimage{unit} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{1} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{unit} 
-\cardtitle{Name22} 
-\cardborder{} 
-\cardcost{5} 
-\cardimage{unit} 
-\first{push}
-\second{roam}
-\third{notVision}
-\fourth{notVision} \cardtier{1} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{unit} 
-\cardtitle{Name23} 
-\cardborder{} 
-\cardcost{7} 
-\cardimage{unit} 
-\first{roam}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{1} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{unit} 
-\cardtitle{Name24} 
+\cardtitle{Basilisks} 
 \cardborder{} 
 \cardcost{4} 
 \cardimage{unit} 
@@ -457,9 +181,22 @@
 \hspace{-4mm}
 \begin{tikzpicture} 
 \cardbackground{unit} 
-\cardtitle{Name25} 
+\cardtitle{Archers} 
 \cardborder{} 
-\cardcost{8} 
+\cardcost{5} 
+\cardimage{unit} 
+\first{vision}
+\second{push}
+\third{push}
+\fourth{notVision} \cardtier{1} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{unit} 
+\cardtitle{Shadows} 
+\cardborder{} 
+\cardcost{7} 
+\cardcontent{ +1 \roam if only \unit at \thisBattle.} 
 \cardimage{unit} 
 \first{vision}
 \second{vision}
@@ -468,232 +205,139 @@
 \end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{sorcery} 
-\cardtitle{Glory Bearers} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{All allied \unit at \thisBattle with 1+ \roam and 1+ \push +8 \strength.} 
-\cardimage{sorcery} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{2} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{sorcery} 
-\cardtitle{Sirens} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{All allied \unit at \thisBattle with 2+ \vision +4 \strength} 
-\cardimage{sorcery} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{2} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{sorcery} 
-\cardtitle{Griffins} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{Allied \unit +7 \strength if allied units have 2+ \push at \thisBattle.} 
-\cardimage{sorcery} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{2} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{sorcery} 
-\cardtitle{Knights} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{Allied \unit +2 \strength for each \vision allied units have at \thisBattle.} 
-\cardimage{sorcery} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{2} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{sorcery} 
-\cardtitle{Light Wraiths} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{Move an allied unit at \adjBattle \thisBattle. Each enemy at \thisBattle -1 \strength.} 
-\cardimage{sorcery} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{2} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{sorcery} 
-\cardtitle{Living Boulders} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{Gain 1 \vp for each \vision on allies at \thisBattle.} 
-\cardimage{sorcery} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{2} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{sorcery} 
-\cardtitle{Rage Cows} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{Gain 5 \vp if 2+ \roam at \thisBattle.} 
-\cardimage{sorcery} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{2} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{sorcery} 
-\cardtitle{Samurai} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{Each enemy \unit loses 1 \vision at \thisBattle.} 
-\cardimage{sorcery} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{2} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{sorcery} 
-\cardtitle{Sharks} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{All enemy units at this \region -2 \strength.} 
-\cardimage{sorcery} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{2} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{sorcery} 
-\cardtitle{Spearmen} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{All friendly units with 2+ \vision at \adjBattle +6 \strength.} 
-\cardimage{sorcery} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{2} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{sorcery} 
-\cardtitle{Stormcallers} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{ +10 \strength if allied units have 3+ \roam at \thisBattle.} 
-\cardimage{sorcery} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{2} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{sorcery} 
-\cardtitle{Void Fog} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{An allied unit +16 \strength if allied units have 3+ \roam at \thisBattle.} 
-\cardimage{sorcery} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{2} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{sorcery} 
-\cardtitle{Winged Fox} 
-\cardborder{} 
-\cardcost{} 
-\cardcontent{All friendly units with 1+ \roam at \adjBattle +5 \strength.} 
-\cardimage{sorcery} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{2} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
 \cardbackground{unit} 
-\cardtitle{Name1} 
+\cardtitle{Fanged Sky} 
 \cardborder{} 
-\cardcost{3} 
-\cardcontent{ +5 \strength if allied units have 2+ \push at \thisBattle.} 
+\cardcost{8} 
+\cardcontent{ +2 \push if this \unit has most \strength at \thisBattle.} 
 \cardimage{unit} 
-\first{vision}
-\second{roam}
-\third{notVision}
-\fourth{notVision} \cardtier{2} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{unit} 
-\cardtitle{Name2} 
-\cardborder{} 
-\cardcost{11} 
-\cardcontent{ -2 \strength for each \vision allied units have at \thisBattle.} 
-\cardimage{unit} 
-\first{vision}
+\first{push}
 \second{push}
 \third{notVision}
-\fourth{notVision} \cardtier{2} 
+\fourth{notVision} \cardtier{1} 
 \end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
 \cardbackground{unit} 
-\cardtitle{Name4} 
+\cardtitle{Spies} 
 \cardborder{} 
-\cardcost{7} 
-\cardcontent{Move an allied unit at \adjBattle with 1+ \vision to \thisBattle.} 
-\cardimage{unit} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{2} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{unit} 
-\cardtitle{Name5} 
-\cardborder{} 
-\cardcost{2} 
-\cardcontent{Gain 1 \vp for each \push on allies at \thisBattle.} 
+\cardcost{6} 
 \cardimage{unit} 
 \first{push}
 \second{roam}
 \third{notVision}
+\fourth{notVision} \cardtier{1} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{unit} 
+\cardtitle{Light Wraiths} 
+\cardborder{} 
+\cardcost{6} 
+\cardcontent{ +2 \push if enemy \unit at \thisBattle has more \strength.} 
+\cardimage{unit} 
+\first{push}
+\second{notVision}
+\third{notVision}
+\fourth{notVision} \cardtier{1} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{unit} 
+\cardtitle{Sirens} 
+\cardborder{} 
+\cardcost{4} 
+\cardimage{unit} 
+\first{roam}
+\second{roam}
+\third{notVision}
+\fourth{notVision} \cardtier{1} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{command} 
+\cardtitle{Alchemists} 
+\cardborder{} 
+\cardcost{} 
+\cardcontent{When allied \unit enters \thisBattle +7 \strength.} 
+\cardimage{command} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision} \cardtier{2} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{command} 
+\cardtitle{Earth Movers} 
+\cardborder{} 
+\cardcost{} 
+\cardcontent{\thisBattle is worth +4 \vp.} 
+\cardimage{command} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision} \cardtier{2} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{command} 
+\cardtitle{Giant Bats} 
+\cardborder{} 
+\cardcost{} 
+\cardcontent{When you play a \sorcery at \thisBattle, play it again.} 
+\cardimage{command} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision} \cardtier{2} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{command} 
+\cardtitle{Winged Fox} 
+\cardborder{} 
+\cardcost{} 
+\cardcontent{When allied \unit \enters \thisBattle, double its \strength and one of its traits.} 
+\cardimage{command} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
 \fourth{notVision} \cardtier{2} 
 \end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
 \cardbackground{unit} 
-\cardtitle{Name6} 
+\cardtitle{Griffins} 
 \cardborder{} 
-\cardcost{3} 
-\cardcontent{Gain 1 \roam for each \vision on allied units at \adjBattle.} 
+\cardcost{1} 
+\cardcontent{ +5 \strength for each \push on allied \unit at \thisBattle.} 
+\cardimage{unit} 
+\first{vision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision} \cardtier{2} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{unit} 
+\cardtitle{Diving Toads} 
+\cardborder{} 
+\cardcost{1} 
+\cardcontent{ +7 \strength for each \roam on allied \unit at \thisBattle.} 
+\cardimage{unit} 
+\first{push}
+\second{notVision}
+\third{notVision}
+\fourth{notVision} \cardtier{2} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{unit} 
+\cardtitle{Meteors} 
+\cardborder{} 
+\cardcost{1} 
+\cardcontent{ +3 \strength for each \vision on allied \unit at \thisBattle.} 
 \cardimage{unit} 
 \first{roam}
 \second{notVision}
@@ -703,49 +347,10 @@
 \hspace{-4mm}
 \begin{tikzpicture} 
 \cardbackground{unit} 
-\cardtitle{Name7} 
+\cardtitle{Elephants} 
 \cardborder{} 
-\cardcost{5} 
-\cardcontent{Gain 3 \vp if 2+ \roam at \thisBattle.} 
-\cardimage{unit} 
-\first{push}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{2} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{unit} 
-\cardtitle{Name16} 
-\cardborder{} 
-\cardcost{8} 
-\cardcontent{Gain 1 \vision for each enemy unit at this \region.} 
-\cardimage{unit} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{2} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{unit} 
-\cardtitle{Name17} 
-\cardborder{} 
-\cardcost{6} 
-\cardcontent{All enemy units at this \region -1 \strength.} 
-\cardimage{unit} 
-\first{push}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{2} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{unit} 
-\cardtitle{Name18} 
-\cardborder{} 
-\cardcost{4} 
-\cardcontent{All friendly units with 1+ \vision at \adjBattle +3 \strength.} 
+\cardcost{1} 
+\cardcontent{ +13 \strength if more \vision than opponent at \thisBattle.} 
 \cardimage{unit} 
 \first{vision}
 \second{vision}
@@ -755,25 +360,25 @@
 \hspace{-4mm}
 \begin{tikzpicture} 
 \cardbackground{unit} 
-\cardtitle{Name19} 
-\cardborder{} 
-\cardcost{8} 
-\cardcontent{Allied unit -5 \strength. This unit +6 \strength.} 
-\cardimage{unit} 
-\first{notVision}
-\second{notVision}
-\third{notVision}
-\fourth{notVision} \cardtier{2} 
-\end{tikzpicture}
-\hspace{-4mm}
-\begin{tikzpicture} 
-\cardbackground{unit} 
-\cardtitle{Name20} 
+\cardtitle{Knights} 
 \cardborder{} 
 \cardcost{1} 
-\cardcontent{ +10 \strength if allied units have 3+ \roam at \thisBattle.} 
+\cardcontent{ +10 \strength if more \push than opponent at \thisBattle.} 
 \cardimage{unit} 
-\first{vision}
+\first{push}
+\second{push}
+\third{notVision}
+\fourth{notVision} \cardtier{2} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{unit} 
+\cardtitle{Lava Golem} 
+\cardborder{} 
+\cardcost{1} 
+\cardcontent{ +7 \strength if more \roam than opponent at \thisBattle.} 
+\cardimage{unit} 
+\first{roam}
 \second{roam}
 \third{notVision}
 \fourth{notVision} \cardtier{2} 
@@ -781,62 +386,131 @@
 \hspace{-4mm}
 \begin{tikzpicture} 
 \cardbackground{unit} 
-\cardtitle{Name21} 
+\cardtitle{Walking Whale} 
 \cardborder{} 
-\cardcost{2} 
-\cardcontent{Gain 2 \vision for each \push on an allied unit at \region.} 
+\cardcost{1} 
+\cardcontent{An enemy \unit at \thisBattle lose 2 \strength for each trait they have.} 
 \cardimage{unit} 
-\first{vision}
-\second{roam}
+\first{notVision}
+\second{notVision}
 \third{notVision}
 \fourth{notVision} \cardtier{2} 
 \end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{battle} 
-\cardtitle{Location1} 
+\cardbackground{unit} 
+\cardtitle{Ballistas} 
 \cardborder{} 
-\cardcost{2} 
-\cardimage{battle} 
+\cardcost{1} 
+\cardcontent{Each enemy \unit at \thisBattle loses 1 \strength for each trait they have.} 
+\cardimage{unit} 
 \first{notVision}
 \second{notVision}
 \third{notVision}
-\fourth{notVision} \cardtier{} 
+\fourth{notVision} \cardtier{2} 
 \end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{battle} 
-\cardtitle{Location2} 
+\cardbackground{sorcery} 
+\cardtitle{Dissolvers} 
 \cardborder{} 
-\cardcost{5} 
-\cardimage{battle} 
+\cardcost{} 
+\cardcontent{Each allied \unit at \thisBattle with 1+ \vision, \push and \roam +12 \strength.} 
+\cardimage{sorcery} 
 \first{notVision}
 \second{notVision}
 \third{notVision}
-\fourth{notVision} \cardtier{} 
+\fourth{notVision} \cardtier{2} 
 \end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{battle} 
-\cardtitle{Location3} 
+\cardbackground{sorcery} 
+\cardtitle{Ice Makers} 
 \cardborder{} 
-\cardcost{6} 
-\cardimage{battle} 
+\cardcost{} 
+\cardcontent{Each allied \unit at \thisBattle with 2+ \vision +6 \strength} 
+\cardimage{sorcery} 
 \first{notVision}
 \second{notVision}
 \third{notVision}
-\fourth{notVision} \cardtier{} 
+\fourth{notVision} \cardtier{2} 
 \end{tikzpicture}
 \hspace{-4mm}
 \begin{tikzpicture} 
-\cardbackground{battle} 
-\cardtitle{Location4} 
+\cardbackground{sorcery} 
+\cardtitle{Puffer Gator} 
 \cardborder{} 
-\cardcost{8} 
-\cardimage{battle} 
+\cardcost{} 
+\cardcontent{If 5+ \push at \thisBattle, +18 \strength to an allied \unit.} 
+\cardimage{sorcery} 
 \first{notVision}
 \second{notVision}
 \third{notVision}
-\fourth{notVision} \cardtier{} 
+\fourth{notVision} \cardtier{2} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{sorcery} 
+\cardtitle{Auramancers} 
+\cardborder{} 
+\cardcost{} 
+\cardcontent{Allied \unit with 3+ \roam, +15 \strength.} 
+\cardimage{sorcery} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision} \cardtier{2} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{sorcery} 
+\cardtitle{Leech Launcher} 
+\cardborder{} 
+\cardcost{} 
+\cardcontent{Each allied unit with 1+ \roam, +5 \strength.} 
+\cardimage{sorcery} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision} \cardtier{2} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{sorcery} 
+\cardtitle{Bombers} 
+\cardborder{} 
+\cardcost{} 
+\cardcontent{Gain 1 \vp for each \roam at \thisBattle.} 
+\cardimage{sorcery} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision} \cardtier{2} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{sorcery} 
+\cardtitle{Shield Throwers} 
+\cardborder{} 
+\cardcost{} 
+\cardcontent{Move an enemy unit with 2+ \roam at \thisBattle to \adjBattle. -10 \strength.} 
+\cardimage{sorcery} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision} \cardtier{2} 
+\end{tikzpicture}
+\hspace{-4mm}
+\begin{tikzpicture} 
+\cardbackground{sorcery} 
+\cardtitle{Catapult} 
+\cardborder{} 
+\cardcost{} 
+\cardcontent{Each enemy \unit at \thisBattle loses all \vision. +2 \strength to allied \unit for each \vision lost this way.} 
+\cardimage{sorcery} 
+\first{notVision}
+\second{notVision}
+\third{notVision}
+\fourth{notVision} \cardtier{2} 
 \end{tikzpicture}
 \hspace{-4mm}
